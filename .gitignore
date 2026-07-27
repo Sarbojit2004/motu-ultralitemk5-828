@@ -76,7 +76,12 @@ web_modules/
 
 # Next.js build output
 .next
-out
+
+# Remotion: keep the rendered deliverable, ignore intermediate bundles
+out/*
+!out/.gitkeep
+!out/motu-ultralite-828-reel.mp4
+build/
 
 # Nuxt.js build / generate output
 .nuxt

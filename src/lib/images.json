@@ -1,0 +1,485 @@
+{
+ "cuemix-badge": {
+  "alpha": true,
+  "file": "cuemix-badge.png",
+  "h": 1024,
+  "src": "MOTU 828 (9).png",
+  "w": 1024
+ },
+ "e8-big-studio": {
+  "alpha": false,
+  "file": "e8-big-studio.jpg",
+  "h": 519,
+  "src": "MOTU 828 (30).jpg",
+  "w": 1000
+ },
+ "e8-black-hero": {
+  "alpha": false,
+  "file": "e8-black-hero.jpg",
+  "h": 1002,
+  "src": "MOTU 828 (6).jpg",
+  "w": 2200
+ },
+ "e8-cuemix-home": {
+  "alpha": false,
+  "file": "e8-cuemix-home.jpg",
+  "h": 2062,
+  "src": "MOTU 828 (15).jpg",
+  "w": 2114
+ },
+ "e8-ess-logo": {
+  "alpha": false,
+  "file": "e8-ess-logo.jpg",
+  "h": 941,
+  "src": "MOTU 828 (19).jpg",
+  "w": 1787
+ },
+ "e8-footswitch": {
+  "alpha": false,
+  "file": "e8-footswitch.jpg",
+  "h": 417,
+  "src": "MOTU 828 (20).jpg",
+  "w": 509
+ },
+ "e8-front-elev": {
+  "alpha": true,
+  "file": "e8-front-elev.png",
+  "h": 341,
+  "src": "MOTU 828 (3).png",
+  "w": 2200
+ },
+ "e8-front-elev-slim": {
+  "alpha": true,
+  "file": "e8-front-elev-slim.png",
+  "h": 199,
+  "src": "MOTU 828 (4).png",
+  "w": 2200
+ },
+ "e8-fx-eq": {
+  "alpha": false,
+  "file": "e8-fx-eq.jpg",
+  "h": 1216,
+  "src": "MOTU 828 (13).jpg",
+  "w": 2160
+ },
+ "e8-fx-gate": {
+  "alpha": false,
+  "file": "e8-fx-gate.jpg",
+  "h": 1216,
+  "src": "MOTU 828 (12).jpg",
+  "w": 2160
+ },
+ "e8-fx-reverb": {
+  "alpha": false,
+  "file": "e8-fx-reverb.jpg",
+  "h": 1169,
+  "src": "MOTU 828 (16).jpg",
+  "w": 2076
+ },
+ "e8-guitar-vox": {
+  "alpha": false,
+  "file": "e8-guitar-vox.jpg",
+  "h": 1524,
+  "src": "MOTU 828 (18).jpg",
+  "w": 2200
+ },
+ "e8-ipad-hand": {
+  "alpha": false,
+  "file": "e8-ipad-hand.jpg",
+  "h": 512,
+  "src": "MOTU 828 (15).png",
+  "w": 948
+ },
+ "e8-korg-synth": {
+  "alpha": false,
+  "file": "e8-korg-synth.jpg",
+  "h": 425,
+  "src": "MOTU 828 (26).jpg",
+  "w": 576
+ },
+ "e8-laptop-led": {
+  "alpha": false,
+  "file": "e8-laptop-led.jpg",
+  "h": 1015,
+  "src": "MOTU 828 (21).jpg",
+  "w": 2200
+ },
+ "e8-latency": {
+  "alpha": false,
+  "file": "e8-latency.jpg",
+  "h": 276,
+  "src": "MOTU 828 (14).png",
+  "w": 815
+ },
+ "e8-lcd-a": {
+  "alpha": false,
+  "file": "e8-lcd-a.jpg",
+  "h": 485,
+  "src": "MOTU 828 (3).jpg",
+  "w": 1522
+ },
+ "e8-lcd-b": {
+  "alpha": false,
+  "file": "e8-lcd-b.jpg",
+  "h": 1083,
+  "src": "MOTU 828 (7).jpg",
+  "w": 2000
+ },
+ "e8-line-in-insert": {
+  "alpha": false,
+  "file": "e8-line-in-insert.jpg",
+  "h": 629,
+  "src": "MOTU 828 (22).jpg",
+  "w": 1038
+ },
+ "e8-line-outs": {
+  "alpha": false,
+  "file": "e8-line-outs.jpg",
+  "h": 891,
+  "src": "MOTU 828 (1).jpg",
+  "w": 2000
+ },
+ "e8-loopback-menu": {
+  "alpha": false,
+  "file": "e8-loopback-menu.jpg",
+  "h": 768,
+  "src": "MOTU 828 (2).jpg",
+  "w": 768
+ },
+ "e8-macbook-rack": {
+  "alpha": false,
+  "file": "e8-macbook-rack.jpg",
+  "h": 1899,
+  "src": "MOTU 828 (28).jpg",
+  "w": 2200
+ },
+ "e8-mic-rack": {
+  "alpha": false,
+  "file": "e8-mic-rack.jpg",
+  "h": 1029,
+  "src": "MOTU 828 (25).jpg",
+  "w": 2000
+ },
+ "e8-mixer": {
+  "alpha": false,
+  "file": "e8-mixer.jpg",
+  "h": 1118,
+  "src": "MOTU 828 (14).jpg",
+  "w": 1542
+ },
+ "e8-mixer-phones": {
+  "alpha": false,
+  "file": "e8-mixer-phones.jpg",
+  "h": 1282,
+  "src": "MOTU 828 (17).jpg",
+  "w": 2002
+ },
+ "e8-modular-wall": {
+  "alpha": false,
+  "file": "e8-modular-wall.jpg",
+  "h": 1532,
+  "src": "MOTU 828 (11).jpg",
+  "w": 2000
+ },
+ "e8-monitor-buttons": {
+  "alpha": false,
+  "file": "e8-monitor-buttons.jpg",
+  "h": 481,
+  "src": "MOTU 828 (9).jpg",
+  "w": 423
+ },
+ "e8-monitor-panel": {
+  "alpha": false,
+  "file": "e8-monitor-panel.jpg",
+  "h": 714,
+  "src": "MOTU 828 (27).jpg",
+  "w": 2000
+ },
+ "e8-optical-rear": {
+  "alpha": false,
+  "file": "e8-optical-rear.jpg",
+  "h": 456,
+  "src": "MOTU 828 (4).jpg",
+  "w": 768
+ },
+ "e8-rear-cabled": {
+  "alpha": false,
+  "file": "e8-rear-cabled.jpg",
+  "h": 821,
+  "src": "MOTU 828 (13).png",
+  "w": 1900
+ },
+ "e8-rear-digital": {
+  "alpha": false,
+  "file": "e8-rear-digital.jpg",
+  "h": 1083,
+  "src": "MOTU 828 (10).jpg",
+  "w": 2000
+ },
+ "e8-rear-elev": {
+  "alpha": true,
+  "file": "e8-rear-elev.png",
+  "h": 370,
+  "src": "MOTU 828 (7).png",
+  "w": 2200
+ },
+ "e8-rear-elev-slim": {
+  "alpha": true,
+  "file": "e8-rear-elev-slim.png",
+  "h": 219,
+  "src": "MOTU 828 (8).png",
+  "w": 2200
+ },
+ "e8-render-34a": {
+  "alpha": true,
+  "file": "e8-render-34a.png",
+  "h": 538,
+  "src": "MOTU 828 (1).png",
+  "w": 2200
+ },
+ "e8-render-34b": {
+  "alpha": true,
+  "file": "e8-render-34b.png",
+  "h": 564,
+  "src": "MOTU 828 (2).png",
+  "w": 2200
+ },
+ "e8-render-rear-a": {
+  "alpha": true,
+  "file": "e8-render-rear-a.png",
+  "h": 526,
+  "src": "MOTU 828 (5).png",
+  "w": 2200
+ },
+ "e8-render-rear-b": {
+  "alpha": true,
+  "file": "e8-render-rear-b.png",
+  "h": 547,
+  "src": "MOTU 828 (6).png",
+  "w": 2200
+ },
+ "e8-spdif": {
+  "alpha": false,
+  "file": "e8-spdif.jpg",
+  "h": 497,
+  "src": "MOTU 828 (5).jpg",
+  "w": 576
+ },
+ "e8-sw-bigfish": {
+  "alpha": false,
+  "file": "e8-sw-bigfish.jpg",
+  "h": 1186,
+  "src": "MOTU 828 (8).jpg",
+  "w": 1149
+ },
+ "e8-sw-loopmasters": {
+  "alpha": false,
+  "file": "e8-sw-loopmasters.jpg",
+  "h": 1186,
+  "src": "MOTU 828 (23).jpg",
+  "w": 1149
+ },
+ "e8-sw-lucid": {
+  "alpha": false,
+  "file": "e8-sw-lucid.jpg",
+  "h": 1186,
+  "src": "MOTU 828 (24).jpg",
+  "w": 1149
+ },
+ "e8-sw-mosaic": {
+  "alpha": false,
+  "file": "e8-sw-mosaic.jpg",
+  "h": 637,
+  "src": "MOTU 828 (29).jpg",
+  "w": 2200
+ },
+ "e8-sw-performer-a": {
+  "alpha": true,
+  "file": "e8-sw-performer-a.png",
+  "h": 1299,
+  "src": "MOTU 828 (11).png",
+  "w": 2200
+ },
+ "e8-sw-performer-b": {
+  "alpha": true,
+  "file": "e8-sw-performer-b.png",
+  "h": 1307,
+  "src": "MOTU 828 (12).png",
+  "w": 2200
+ },
+ "e8-sw-soundbank": {
+  "alpha": true,
+  "file": "e8-sw-soundbank.png",
+  "h": 948,
+  "src": "MOTU 828 (10).png",
+  "w": 1678
+ },
+ "e8-usb-5gbps": {
+  "alpha": false,
+  "file": "e8-usb-5gbps.jpg",
+  "h": 941,
+  "src": "MOTU 828 (31).jpg",
+  "w": 1787
+ },
+ "ul-amp-guitar": {
+  "alpha": false,
+  "file": "ul-amp-guitar.jpg",
+  "h": 1423,
+  "src": "MOTU UltraLite-mk5 (3).jpg",
+  "w": 2200
+ },
+ "ul-black-hero": {
+  "alpha": false,
+  "file": "ul-black-hero.jpg",
+  "h": 1339,
+  "src": "MOTU UltraLite-mk5 (11).jpg",
+  "w": 2200
+ },
+ "ul-cuemix-home": {
+  "alpha": true,
+  "file": "ul-cuemix-home.png",
+  "h": 1948,
+  "src": "MOTU UltraLite-mk5 (1).png",
+  "w": 2100
+ },
+ "ul-desk-hero": {
+  "alpha": false,
+  "file": "ul-desk-hero.jpg",
+  "h": 1515,
+  "src": "MOTU UltraLite-mk5 (1).jpg",
+  "w": 2200
+ },
+ "ul-front-closeup": {
+  "alpha": true,
+  "file": "ul-front-closeup.png",
+  "h": 1000,
+  "src": "MOTU UltraLite-mk5 (2).png",
+  "w": 2200
+ },
+ "ul-front-elev": {
+  "alpha": true,
+  "file": "ul-front-elev.png",
+  "h": 434,
+  "src": "MOTU UltraLite-mk5 (8).png",
+  "w": 2200
+ },
+ "ul-fx-eq": {
+  "alpha": false,
+  "file": "ul-fx-eq.jpg",
+  "h": 609,
+  "src": "MOTU UltraLite-mk5 (7).jpg",
+  "w": 1081
+ },
+ "ul-fx-gate": {
+  "alpha": false,
+  "file": "ul-fx-gate.jpg",
+  "h": 1216,
+  "src": "MOTU UltraLite-mk5 (6).jpg",
+  "w": 2160
+ },
+ "ul-fx-reverb": {
+  "alpha": false,
+  "file": "ul-fx-reverb.jpg",
+  "h": 1215,
+  "src": "MOTU UltraLite-mk5 (9).jpg",
+  "w": 2160
+ },
+ "ul-guitarist": {
+  "alpha": false,
+  "file": "ul-guitarist.jpg",
+  "h": 1423,
+  "src": "MOTU UltraLite-mk5 (12).jpg",
+  "w": 2200
+ },
+ "ul-ipad-cuemix": {
+  "alpha": false,
+  "file": "ul-ipad-cuemix.jpg",
+  "h": 1415,
+  "src": "MOTU UltraLite-mk5 (13).jpg",
+  "w": 2200
+ },
+ "ul-ipad-desk": {
+  "alpha": false,
+  "file": "ul-ipad-desk.jpg",
+  "h": 1312,
+  "src": "MOTU UltraLite-mk5 (4).jpg",
+  "w": 2200
+ },
+ "ul-latency": {
+  "alpha": false,
+  "file": "ul-latency.jpg",
+  "h": 1515,
+  "src": "MOTU UltraLite-mk5 (10).jpg",
+  "w": 2200
+ },
+ "ul-mixer": {
+  "alpha": false,
+  "file": "ul-mixer.jpg",
+  "h": 1213,
+  "src": "MOTU UltraLite-mk5 (8).jpg",
+  "w": 2153
+ },
+ "ul-rack-ears": {
+  "alpha": true,
+  "file": "ul-rack-ears.png",
+  "h": 1540,
+  "src": "MOTU UltraLite-mk5 (4).png",
+  "w": 2200
+ },
+ "ul-rack-kit": {
+  "alpha": true,
+  "file": "ul-rack-kit.png",
+  "h": 1540,
+  "src": "MOTU UltraLite-mk5 (5).png",
+  "w": 2200
+ },
+ "ul-rear-elev": {
+  "alpha": true,
+  "file": "ul-rear-elev.png",
+  "h": 436,
+  "src": "MOTU UltraLite-mk5 (9).png",
+  "w": 2200
+ },
+ "ul-render-34": {
+  "alpha": true,
+  "file": "ul-render-34.png",
+  "h": 1239,
+  "src": "MOTU UltraLite-mk5 (3).png",
+  "w": 2200
+ },
+ "ul-render-front": {
+  "alpha": true,
+  "file": "ul-render-front.png",
+  "h": 1128,
+  "src": "MOTU UltraLite-mk5 (6).png",
+  "w": 2200
+ },
+ "ul-render-top": {
+  "alpha": true,
+  "file": "ul-render-top.png",
+  "h": 1376,
+  "src": "MOTU UltraLite-mk5 (7).png",
+  "w": 2200
+ },
+ "ul-stack-laptop": {
+  "alpha": false,
+  "file": "ul-stack-laptop.jpg",
+  "h": 1339,
+  "src": "MOTU UltraLite-mk5 (2).jpg",
+  "w": 2200
+ },
+ "ul-system-diagram": {
+  "alpha": false,
+  "file": "ul-system-diagram.jpg",
+  "h": 835,
+  "src": "MOTU UltraLite-mk5 (14).jpg",
+  "w": 1726
+ },
+ "ul-wood-studio": {
+  "alpha": false,
+  "file": "ul-wood-studio.jpg",
+  "h": 1470,
+  "src": "MOTU UltraLite-mk5 (5).jpg",
+  "w": 2200
+ }
+}
