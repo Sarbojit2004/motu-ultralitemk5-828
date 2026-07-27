@@ -5,7 +5,9 @@
   "scripts": {
     "start": "remotion studio",
     "build": "remotion render",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render LongForm out/motu-longform-ultralite-828.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
+    "render:reel": "remotion render Reel out/motu-ultralite-828-reel.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.409",
