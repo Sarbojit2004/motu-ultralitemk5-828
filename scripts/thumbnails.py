@@ -70,17 +70,24 @@ def text(draw, xy, s, font, fill, ls=0, anchor="la"):
     return total
 
 
+def th(draw, s, font):
+    """Rendered height of a string, measured rather than guessed from point size."""
+    b = draw.textbbox((0, 0), s, font=font)
+    return b[3] - b[1] + b[1]  # bottom edge relative to the draw origin
+
+
+def line(draw, xy, s, font, fill, ls=0, anchor="la", gap=0):
+    """Draw a line of text and return the y the next line may start at."""
+    text(draw, xy, s, font, fill, ls=ls, anchor=anchor)
+    return xy[1] + th(draw, s, font) + gap
+
+
 def background():
-    y = np.linspace(0, 1, H)[:, None]
-    base = np.zeros((H, W, 3), np.float32)
+    y = np.linspace(0, 1, H)[:, None, None]  # (H,1,1) so it broadcasts over W and RGB
     top = np.array([5, 8, 14], np.float32)
     mid = np.array([14, 22, 34], np.float32)
-    bot = np.array([5, 7, 12], np.float32)
-    ramp = 1 - np.abs(y - 0.46) / 0.54
-    ramp = np.clip(ramp, 0, 1) ** 1.25
-    base += top + (mid - top) * ramp
-    base = base * np.ones((1, W, 1), np.float32)
-    base[-1:] = bot
+    ramp = np.clip(1 - np.abs(y - 0.46) / 0.54, 0, 1) ** 1.25
+    base = np.broadcast_to(top + (mid - top) * ramp, (H, W, 3)).astype(np.float32).copy()
 
     xx, yy = np.meshgrid(np.linspace(0, 1, W), np.linspace(0, 1, H))
 
@@ -140,23 +147,22 @@ def product_card(base, draw, *, y, h, accent, img_name, kicker, name, name_size,
     base.paste(im, xy, im)
 
     tx = l + 530
-    ty = y + 52
-    text(draw, (tx, ty), kicker, inter(23, 800), accent, ls=5)
-    ty += 40
-    draw.text((tx, ty), name, font=bc(name_size, 800), fill=INK)
-    ty += int(name_size * 0.86)
-    text(draw, (tx, ty), spec, mono(21, 700), SOFT, ls=1.4)
-    ty += 42
+    ty = y + 46
+    ty = line(draw, (tx, ty), kicker, inter(23, 800), accent, ls=5, gap=12)
+    ty = line(draw, (tx, ty), name, bc(name_size, 800), INK, gap=14)
+    ty = line(draw, (tx, ty), spec, mono(21, 700), SOFT, ls=1.4, gap=20)
     draw.line((tx, ty, r - 40, ty), fill=LINE, width=1)
-    ty += 26
+    ty += 24
 
     rs = bc(52, 700)
     pf = bc(84, 800)
-    draw.text((tx, ty + 24), "Rs.", font=rs, fill=GOLD)
+    draw.text((tx, ty + 26), "Rs.", font=rs, fill=GOLD)
     wrs = draw.textlength("Rs.", font=rs)
     draw.text((tx + wrs + 12, ty), price, font=pf, fill=GOLD)
-    ty += 92
+    ty += th(draw, price, pf) + 14
     text(draw, (tx, ty), note, mono(18, 700), DIM, ls=2.2)
+    bottom = ty + th(draw, note, mono(18, 700))
+    assert bottom < y + h - 8, f"card text overflows its card ({bottom} vs {y + h})"
 
 
 def build(lang, filename):
@@ -171,52 +177,57 @@ def build(lang, filename):
     text(draw, (W / 2, by + 20), lang, inter(34, 800), (10, 12, 16), ls=7, anchor="ma")
 
     # ---- brand block (typographic only — no logo files) ----
-    y = 178
-    text(draw, (W / 2, y), "SHIVANSH ELECTRONICS", inter(42, 800), INK, ls=8.5, anchor="ma")
-    y += 62
-    text(draw, (W / 2, y), "AUTHORIZED DISTRIBUTOR OF MOTU", inter(22, 700), BRAND, ls=3.4, anchor="ma")
-    y += 32
-    text(draw, (W / 2, y), "(MARK OF THE UNICORN, USA)  ·  EAST & NORTH-EAST INDIA",
-         inter(20, 600), SOFT, ls=2.4, anchor="ma")
-    y += 44
+    y = 172
+    y = line(draw, (W / 2, y), "SHIVANSH ELECTRONICS", inter(42, 800), INK,
+             ls=8.5, anchor="ma", gap=14)
+    y = line(draw, (W / 2, y), "AUTHORIZED DISTRIBUTOR OF MOTU", inter(22, 700), BRAND,
+             ls=3.4, anchor="ma", gap=8)
+    y = line(draw, (W / 2, y), "(MARK OF THE UNICORN, USA)  ·  EAST & NORTH-EAST INDIA",
+             inter(20, 600), SOFT, ls=2.4, anchor="ma", gap=22)
     draw.line((160, y, W - 160, y), fill=LINE, width=1)
+    y += 34
 
     # ---- product + price cards ----
-    product_card(base, draw, y=286, h=468, accent=UL, img_name="ul-render-34.png",
-                 kicker="MOTU", name="ULTRALITE-mk5", name_size=64,
+    CARD_H = 452
+    product_card(base, draw, y=y, h=CARD_H, accent=UL, img_name="ul-render-34.png",
+                 kicker="MOTU", name="ULTRALITE-mk5", name_size=62,
                  spec="18 × 22  ·  40 CHANNELS", price="81,900",
                  note="PER UNIT · INCLUDING GST")
     draw = ImageDraw.Draw(base)
+    y += CARD_H + 30
 
-    product_card(base, draw, y=790, h=468, accent=E8, img_name="e8-render-34b.png",
-                 kicker="MOTU", name="828", name_size=104,
+    product_card(base, draw, y=y, h=CARD_H, accent=E8, img_name="e8-render-34b.png",
+                 kicker="MOTU", name="828", name_size=96,
                  spec="28 × 32  ·  60 CHANNELS", price="1,20,000",
                  note="PER UNIT · INCLUDING GST")
     draw = ImageDraw.Draw(base)
+    y += CARD_H + 32
 
     # ---- shared-thread strip ----
-    y = 1296
-    rrect(draw, (48, y, W - 48, y + 76), 18, fill=(20, 14, 34, 210), outline=(179, 107, 232, 120))
-    text(draw, (W / 2, y + 26), "BOTH RUN CUEMIX 5 DSP  ·  ESS SABRE32  ·  UP TO 192 kHz",
+    rrect(draw, (48, y, W - 48, y + 74), 18, fill=(20, 14, 34, 210), outline=(179, 107, 232, 120))
+    text(draw, (W / 2, y + 25), "BOTH RUN CUEMIX 5 DSP  ·  ESS SABRE32  ·  UP TO 192 kHz",
          mono(23, 700), (206, 168, 240), ls=1.6, anchor="ma")
+    y += 74 + 30
 
     # ---- call to action ----
-    y = 1414
-    rrect(draw, (48, y, W - 48, y + 246), 26, fill=(38, 27, 6, 200), outline=GOLD + (255,), width=3)
-    text(draw, (W / 2, y + 34), "DM OR CALL", bc(78, 800), GOLD, ls=1, anchor="ma")
-    text(draw, (W / 2, y + 116), "FOR THE BEST PRICE", bc(60, 800), INK, ls=1, anchor="ma")
-    text(draw, (W / 2, y + 190), "+91 98316 62458   ·   +91 91477 00677   ·   +91 89818 07755",
+    cta_h = 238
+    rrect(draw, (48, y, W - 48, y + cta_h), 26, fill=(38, 27, 6, 200), outline=GOLD + (255,), width=3)
+    ty = y + 28
+    ty = line(draw, (W / 2, ty), "DM OR CALL", bc(76, 800), GOLD, ls=1, anchor="ma", gap=4)
+    ty = line(draw, (W / 2, ty), "FOR THE BEST PRICE", bc(58, 800), INK, ls=1, anchor="ma", gap=18)
+    text(draw, (W / 2, ty), "+91 98316 62458   ·   +91 91477 00677   ·   +91 89818 07755",
          mono(24, 700), SOFT, ls=0.4, anchor="ma")
+    y += cta_h + 40
 
     # ---- footer ----
-    y = 1712
-    text(draw, (W / 2, y), "www.shivanshelectronics.in", mono(30, 700), GOLD, ls=1.2, anchor="ma")
-    y += 50
-    text(draw, (W / 2, y), "instagram.com/shivanshelectronics.in   ·   linktr.ee/shivanshelectronics.in",
-         inter(21, 600), SOFT, ls=0.6, anchor="ma")
-    y += 40
-    text(draw, (W / 2, y), "3, Ramanath Das Road, Dhakuria, Garfa, Kolkata 700031",
-         inter(19, 500), DIM, ls=0.6, anchor="ma")
+    y = line(draw, (W / 2, y), "www.shivanshelectronics.in", mono(30, 700), GOLD,
+             ls=1.2, anchor="ma", gap=14)
+    y = line(draw, (W / 2, y),
+             "instagram.com/shivanshelectronics.in   ·   linktr.ee/shivanshelectronics.in",
+             inter(21, 600), SOFT, ls=0.6, anchor="ma", gap=12)
+    y = line(draw, (W / 2, y), "3, Ramanath Das Road, Dhakuria, Garfa, Kolkata 700031",
+             inter(19, 500), DIM, ls=0.6, anchor="ma", gap=0)
+    assert y < H - 30, f"footer overflows the canvas ({y})"
 
     path = os.path.join(OUT, filename)
     base.convert("RGB").save(path, "PNG", optimize=True)
