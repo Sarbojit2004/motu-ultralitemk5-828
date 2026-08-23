@@ -1,0 +1,1672 @@
+{
+ "id": "LongForm",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInSeconds": 598,
+ "durationInFrames": 17940,
+ "voSlot": "voiceover-longform.mp3",
+ "chapters": [
+  {
+   "n": 1,
+   "id": "bottleneck",
+   "title": "The Bottleneck",
+   "sec": 96,
+   "track": "ETERNITY"
+  },
+  {
+   "n": 2,
+   "id": "standard",
+   "title": "One Standard",
+   "sec": 110,
+   "track": "Mindscape"
+  },
+  {
+   "n": 3,
+   "id": "agile",
+   "title": "The Agile Hub",
+   "sec": 126,
+   "track": "GIFTED"
+  },
+  {
+   "n": 4,
+   "id": "anchor",
+   "title": "The Studio Anchor",
+   "sec": 138,
+   "track": "DIABLO"
+  },
+  {
+   "n": 5,
+   "id": "proof",
+   "title": "The Proof",
+   "sec": 76,
+   "track": "Black & Blue"
+  },
+  {
+   "n": 6,
+   "id": "scale",
+   "title": "Choose Your Scale",
+   "sec": 52,
+   "track": "Mindscape"
+  }
+ ],
+ "beats": [
+  {
+   "id": "c1-cold-open",
+   "sec": 11,
+   "kind": "clipHero",
+   "clip": 1,
+   "trim": 0.4,
+   "rate": 0.92,
+   "grade": "cool",
+   "eyebrow": "The Architecture of Scale",
+   "editorial": "Every session starts the same way.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.16
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 0,
+   "durationInFrames": 330,
+   "fromSec": 0
+  },
+  {
+   "id": "c1-cables",
+   "sec": 9,
+   "kind": "clipHero",
+   "clip": 1,
+   "trim": 3.6,
+   "rate": 1,
+   "grade": "cool",
+   "editorial": "Not with an idea — with a cable.",
+   "brand": "corner",
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 330,
+   "durationInFrames": 270,
+   "fromSec": 11
+  },
+  {
+   "id": "c1-no-port",
+   "sec": 10,
+   "kind": "clipSplit",
+   "clip": 1,
+   "trim": 5.4,
+   "rate": 0.95,
+   "grade": "cool",
+   "headline": "No free input",
+   "body": "A hand hovers over a back panel that is already full. The take waits.",
+   "sfx": [
+    [
+     "trs-seat",
+     22,
+     0.5
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 600,
+   "durationInFrames": 300,
+   "fromSec": 20
+  },
+  {
+   "id": "c1-headphones",
+   "sec": 10,
+   "kind": "clipSplit",
+   "clip": 2,
+   "trim": 1.2,
+   "rate": 1,
+   "grade": "cool",
+   "headline": "The monitor drops",
+   "body": "Latency does not just cost time. It costs the performance.",
+   "brand": "lower",
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 900,
+   "durationInFrames": 300,
+   "fromSec": 30
+  },
+  {
+   "id": "c1-ceiling",
+   "sec": 11,
+   "kind": "clipHero",
+   "clip": 6,
+   "trim": 0.6,
+   "rate": 1,
+   "grade": "cool",
+   "editorial": "A rack of good gear, sitting unpowered.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "encoder-click",
+     40,
+     0.4
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 1200,
+   "durationInFrames": 330,
+   "fromSec": 40
+  },
+  {
+   "id": "c1-unplugged",
+   "sec": 10,
+   "kind": "montage",
+   "img": [
+    44,
+    64
+   ],
+   "cols": 2,
+   "eyebrow": "The cost of running out of inputs",
+   "headline": "Patched once. Then never again.",
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 1530,
+   "durationInFrames": 300,
+   "fromSec": 51
+  },
+  {
+   "id": "c1-ceiling-2",
+   "sec": 9,
+   "kind": "clipSplit",
+   "clip": 6,
+   "trim": 5.8,
+   "rate": 1.05,
+   "grade": "cool",
+   "headline": "Routing around the problem",
+   "body": "Re-patching is not workflow. It is interruption.",
+   "sfx": [
+    [
+     "trs-seat",
+     14,
+     0.42
+    ],
+    [
+     "trs-seat",
+     46,
+     0.36
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 1830,
+   "durationInFrames": 270,
+   "fromSec": 61
+  },
+  {
+   "id": "c1-growing",
+   "sec": 10,
+   "kind": "montage",
+   "img": [
+    68,
+    63
+   ],
+   "cols": 2,
+   "eyebrow": "The room keeps growing",
+   "headline": "The interface does not.",
+   "brand": "lower",
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 2100,
+   "durationInFrames": 300,
+   "fromSec": 70
+  },
+  {
+   "id": "c1-turn",
+   "sec": 16,
+   "kind": "statement",
+   "eyebrow": "Two answers, one standard",
+   "editorial": "So the question was never which one is better.",
+   "sub": "It was only ever a question of scale.",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     30,
+     0.5
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "bottleneck",
+   "chapterTitle": "The Bottleneck",
+   "from": 2400,
+   "durationInFrames": 480,
+   "fromSec": 80
+  },
+  {
+   "id": "c2-open",
+   "sec": 9,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 02",
+   "headline": "One Standard",
+   "sub": "Two environments. The same uncompromising conversion.",
+   "motu": true,
+   "brand": "corner",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 2880,
+   "durationInFrames": 270,
+   "fromSec": 96
+  },
+  {
+   "id": "c2-thesis",
+   "sec": 10,
+   "kind": "clipSplit",
+   "clip": 3,
+   "trim": 0.3,
+   "rate": 0.9,
+   "grade": "none",
+   "headline": "The same engine room",
+   "body": "Identical conversion. Identical preamplifier design. Identical software. What differs is how much of the studio it has to carry.",
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 3150,
+   "durationInFrames": 300,
+   "fromSec": 105
+  },
+  {
+   "id": "c2-ess",
+   "sec": 9,
+   "kind": "badgeSpec",
+   "img": [
+    57
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra — ES9026PRO, in both units.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "encoder-click",
+     24,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 3450,
+   "durationInFrames": 270,
+   "fromSec": 115
+  },
+  {
+   "id": "c2-wave",
+   "sec": 11,
+   "kind": "conversionWave",
+   "bedClip": 7,
+   "bedTrim": 1.2,
+   "bedRate": 0.85,
+   "eyebrow": "Conversion",
+   "headline": "Digital in. Analog out.",
+   "sub": "Mastering-grade conversion, identical across the pair.",
+   "brand": "lower",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 3720,
+   "durationInFrames": 330,
+   "fromSec": 124
+  },
+  {
+   "id": "c2-renders",
+   "sec": 10,
+   "kind": "compare",
+   "img": [
+    14,
+    25
+   ],
+   "brand": "corner",
+   "eyebrow": "One standard, two environments",
+   "leftLabel": "UltraLite-mk5 · The Agile Hub",
+   "rightLabel": "828 · The Studio Anchor",
+   "sfx": [
+    [
+     "usbc-seat",
+     18,
+     0.5
+    ],
+    [
+     "usbc-seat",
+     34,
+     0.5
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 4050,
+   "durationInFrames": 300,
+   "fromSec": 135
+  },
+  {
+   "id": "c2-preamp",
+   "sec": 10,
+   "kind": "gainSwell",
+   "eyebrow": "Redesigned microphone preamplifiers",
+   "headline": "+74 dB of clean gain",
+   "sub": "−129 dBu EIN, A-weighted. In 1 dB increments. On both.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "xlr-lock",
+     26,
+     0.5
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 4350,
+   "durationInFrames": 300,
+   "fromSec": 145
+  },
+  {
+   "id": "c2-cuemix",
+   "sec": 9,
+   "kind": "badgeSpec",
+   "img": [
+    41
+   ],
+   "metric": "CueMix 5",
+   "context": "DSP mixing ecosystem",
+   "narrative": "EQ, reverb, dynamics and loopback — on the hardware, not the host CPU.",
+   "accent": "signal",
+   "brand": "lower",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 4650,
+   "durationInFrames": 270,
+   "fromSec": 155
+  },
+  {
+   "id": "c2-latency",
+   "sec": 9,
+   "kind": "compare",
+   "img": [
+    19,
+    51
+   ],
+   "eyebrow": "Round-trip latency",
+   "leftLabel": "UltraLite-mk5 · 2.4 ms",
+   "rightLabel": "828 · ~2 ms",
+   "sub": "At 96 kHz, 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     20,
+     0.46
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 4920,
+   "durationInFrames": 270,
+   "fromSec": 164
+  },
+  {
+   "id": "c2-daw",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    45,
+    47
+   ],
+   "cols": 2,
+   "eyebrow": "Straight into the session",
+   "headline": "macOS. Windows. iOS.",
+   "brand": "corner",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 5190,
+   "durationInFrames": 240,
+   "fromSec": 173
+  },
+  {
+   "id": "c2-system",
+   "sec": 8,
+   "kind": "heroWide",
+   "img": [
+    23
+   ],
+   "eyebrow": "Everything, connected",
+   "headline": "One hub for the whole room",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 5430,
+   "durationInFrames": 240,
+   "fromSec": 181
+  },
+  {
+   "id": "c2-bundles",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    38,
+    43,
+    61,
+    62,
+    67
+   ],
+   "cols": 3,
+   "eyebrow": "Included software",
+   "headline": "Ready to record on day one",
+   "brand": "lower",
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 5670,
+   "durationInFrames": 240,
+   "fromSec": 189
+  },
+  {
+   "id": "c2-brand",
+   "sec": 9,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     24,
+     0.44
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "standard",
+   "chapterTitle": "One Standard",
+   "from": 5910,
+   "durationInFrames": 270,
+   "fromSec": 197
+  },
+  {
+   "id": "c3-open",
+   "sec": 10,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 03",
+   "headline": "The Agile Hub",
+   "sub": "MOTU UltraLite-mk5 — dense I/O in a half-rack chassis.",
+   "motu": true,
+   "brand": "corner",
+   "bedClip": 9,
+   "bedTrim": 0.4,
+   "bedRate": 0.95,
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 6180,
+   "durationInFrames": 300,
+   "fromSec": 206
+  },
+  {
+   "id": "c3-hero",
+   "sec": 10,
+   "kind": "heroReveal",
+   "img": [
+    20
+   ],
+   "fx": 0.42,
+   "fy": 0.55,
+   "eyebrow": "MOTU UltraLite-mk5",
+   "headline": "Built for the desk, the backpack and the stage",
+   "sfx": [
+    [
+     "encoder-click",
+     26,
+     0.42
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 6480,
+   "durationInFrames": 300,
+   "fromSec": 216
+  },
+  {
+   "id": "c3-front",
+   "sec": 9,
+   "kind": "portSweep",
+   "img": [
+    16
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Front panel",
+   "headline": "Two combo preamps. One clean surface.",
+   "callouts": [
+    [
+     "MIC / LINE / INST",
+     0.13
+    ],
+    [
+     "MIC GAIN",
+     0.46
+    ],
+    [
+     "White OLED",
+     0.8
+    ]
+   ],
+   "sfx": [
+    [
+     "encoder-click",
+     18,
+     0.46
+    ],
+    [
+     "encoder-click",
+     40,
+     0.38
+    ]
+   ],
+   "brand": "corner",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 6780,
+   "durationInFrames": 270,
+   "fromSec": 226
+  },
+  {
+   "id": "c3-oled",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    4
+   ],
+   "fx": 0.72,
+   "fy": 0.5,
+   "eyebrow": "High-contrast white OLED",
+   "headline": "Every channel, at a glance",
+   "sub": "48 kHz · INT LOCK — metering for mic, line in, main and line out.",
+   "sfx": [
+    [
+     "avb-ping",
+     22,
+     0.4
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 7050,
+   "durationInFrames": 240,
+   "fromSec": 235
+  },
+  {
+   "id": "c3-density",
+   "sec": 11,
+   "kind": "ioMatrix",
+   "ins": 18,
+   "outs": 22,
+   "eyebrow": "Form factor versus I/O density",
+   "headline": "40 channels",
+   "sub": "18 in, 22 out — simultaneous, in a half-rack steel chassis.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 7290,
+   "durationInFrames": 330,
+   "fromSec": 243
+  },
+  {
+   "id": "c3-rear",
+   "sec": 10,
+   "kind": "portSweep",
+   "img": [
+    18
+   ],
+   "zoom": 2.8,
+   "eyebrow": "Rear panel",
+   "headline": "Ten TRS outputs. All DC-coupled.",
+   "callouts": [
+    [
+     "MIDI I/O",
+     0.09
+    ],
+    [
+     "USB-C",
+     0.3
+    ],
+    [
+     "ADAT",
+     0.42
+    ],
+    [
+     "LINE OUT",
+     0.68
+    ]
+   ],
+   "sfx": [
+    [
+     "trs-seat",
+     20,
+     0.44
+    ],
+    [
+     "usbc-seat",
+     44,
+     0.42
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 7620,
+   "durationInFrames": 300,
+   "fromSec": 254
+  },
+  {
+   "id": "c3-renders",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    6,
+    12
+   ],
+   "cols": 2,
+   "eyebrow": "Front and rear",
+   "headline": "The whole unit, both ways",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 7920,
+   "durationInFrames": 240,
+   "fromSec": 264
+  },
+  {
+   "id": "c3-desk",
+   "sec": 9,
+   "kind": "heroReveal",
+   "img": [
+    1
+   ],
+   "fx": 0.5,
+   "fy": 0.6,
+   "eyebrow": "On the desk",
+   "headline": "Everything patched. Nothing in the way.",
+   "brand": "corner",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 8160,
+   "durationInFrames": 270,
+   "fromSec": 272
+  },
+  {
+   "id": "c3-mobile",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    7,
+    22
+   ],
+   "cols": 2,
+   "eyebrow": "Desktop and iOS",
+   "headline": "CueMix 5, wherever you are working",
+   "sfx": [
+    [
+     "usbc-seat",
+     20,
+     0.44
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 8430,
+   "durationInFrames": 270,
+   "fromSec": 281
+  },
+  {
+   "id": "c3-studio",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    9,
+    21
+   ],
+   "cols": 2,
+   "eyebrow": "In the room",
+   "headline": "A hub the desk can actually hold",
+   "brand": "lower",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 8700,
+   "durationInFrames": 270,
+   "fromSec": 290
+  },
+  {
+   "id": "c3-amp",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    5,
+    3
+   ],
+   "cols": 2,
+   "eyebrow": "Stage and stack",
+   "headline": "Rugged enough to travel",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 8970,
+   "durationInFrames": 240,
+   "fromSec": 299
+  },
+  {
+   "id": "c3-cuemix",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    2,
+    11,
+    13,
+    15,
+    17
+   ],
+   "cols": 3,
+   "eyebrow": "CueMix 5",
+   "headline": "EQ, dynamics, reverb and loopback — on board",
+   "sub": "Zero-latency monitor mixes without taxing the host CPU.",
+   "brand": "corner",
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 9210,
+   "durationInFrames": 270,
+   "fromSec": 307
+  },
+  {
+   "id": "c3-rack",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    8,
+    10
+   ],
+   "cols": 2,
+   "eyebrow": "Optional rack ears",
+   "headline": "Desktop today. Rack tomorrow.",
+   "sfx": [
+    [
+     "encoder-click",
+     20,
+     0.36
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 9480,
+   "durationInFrames": 240,
+   "fromSec": 316
+  },
+  {
+   "id": "c3-brand",
+   "sec": 8,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.42
+    ]
+   ],
+   "chapter": 3,
+   "chapterId": "agile",
+   "chapterTitle": "The Agile Hub",
+   "from": 9720,
+   "durationInFrames": 240,
+   "fromSec": 324
+  },
+  {
+   "id": "c4-open",
+   "sec": 7,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 04",
+   "headline": "The Studio Anchor",
+   "sub": "MOTU 828 — the rack-mounted centre of a growing room.",
+   "motu": true,
+   "brand": "corner",
+   "bedClip": 9,
+   "bedTrim": 5.2,
+   "bedRate": 0.95,
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 9960,
+   "durationInFrames": 210,
+   "fromSec": 332
+  },
+  {
+   "id": "c4-hero",
+   "sec": 8,
+   "kind": "heroReveal",
+   "img": [
+    59
+   ],
+   "fx": 0.5,
+   "fy": 0.55,
+   "eyebrow": "MOTU 828",
+   "headline": "The central nervous system of the control room",
+   "sfx": [
+    [
+     "encoder-click",
+     26,
+     0.42
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 10170,
+   "durationInFrames": 240,
+   "fromSec": 339
+  },
+  {
+   "id": "c4-front",
+   "sec": 8,
+   "kind": "portSweep",
+   "img": [
+    31
+   ],
+   "zoom": 2.7,
+   "eyebrow": "Front panel",
+   "headline": "Talkback, monitor control, dual headphones",
+   "callouts": [
+    [
+     "MIC / LINE / INST",
+     0.1
+    ],
+    [
+     "GAIN",
+     0.34
+    ],
+    [
+     "3.9in RGB TFT",
+     0.6
+    ],
+    [
+     "MENU",
+     0.86
+    ]
+   ],
+   "sfx": [
+    [
+     "talkback-click",
+     22,
+     0.46
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 10410,
+   "durationInFrames": 240,
+   "fromSec": 347
+  },
+  {
+   "id": "c4-bandwidth",
+   "sec": 9,
+   "kind": "ioMatrix",
+   "ins": 28,
+   "outs": 32,
+   "img": [
+    29
+   ],
+   "eyebrow": "Unrestricted bandwidth",
+   "headline": "60 channels",
+   "sub": "28 in, 32 out — simultaneous, over USB 3.2 Gen 1 at 5 Gbps.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 10650,
+   "durationInFrames": 270,
+   "fromSec": 355
+  },
+  {
+   "id": "c4-usb",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    30
+   ],
+   "fx": 0.55,
+   "fy": 0.62,
+   "eyebrow": "Host connectivity",
+   "headline": "USB 3.2 Gen 1 · 5 Gbps",
+   "sub": "A single USB-C connection carries the whole channel count.",
+   "sfx": [
+    [
+     "usbc-seat",
+     24,
+     0.5
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 10920,
+   "durationInFrames": 240,
+   "fromSec": 364
+  },
+  {
+   "id": "c4-rear",
+   "sec": 8,
+   "kind": "portSweep",
+   "img": [
+    37
+   ],
+   "zoom": 3,
+   "eyebrow": "Rear panel",
+   "headline": "Word Clock, dual optical, inserts, main outs",
+   "callouts": [
+    [
+     "WORD CLOCK",
+     0.07
+    ],
+    [
+     "OPTICAL A + B",
+     0.2
+    ],
+    [
+     "MAIN OUT XLR",
+     0.6
+    ],
+    [
+     "MIC INSERT",
+     0.9
+    ]
+   ],
+   "sfx": [
+    [
+     "trs-seat",
+     22,
+     0.42
+    ],
+    [
+     "xlr-lock",
+     50,
+     0.4
+    ]
+   ],
+   "brand": "corner",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 11160,
+   "durationInFrames": 240,
+   "fromSec": 372
+  },
+  {
+   "id": "c4-rear2",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    39
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Every connection",
+   "headline": "Eight TRS in. Eight TRS out. Two XLR mains.",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 11400,
+   "durationInFrames": 180,
+   "fromSec": 380
+  },
+  {
+   "id": "c4-inserts",
+   "sec": 9,
+   "kind": "heroMacro",
+   "img": [
+    60
+   ],
+   "fx": 0.62,
+   "fy": 0.5,
+   "eyebrow": "Analog integration",
+   "headline": "Dedicated preamp send and return",
+   "sub": "Patch a compressor across the mic channel before it ever hits conversion.",
+   "accent": "signal",
+   "sfx": [
+    [
+     "trs-seat",
+     24,
+     0.5
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 11580,
+   "durationInFrames": 270,
+   "fromSec": 386
+  },
+  {
+   "id": "c4-adat",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    42
+   ],
+   "fx": 0.4,
+   "fy": 0.5,
+   "eyebrow": "Dual ADAT banks",
+   "headline": "Sixteen more channels, optically",
+   "sub": "Two banks — A and B — plus S/PDIF and full MIDI.",
+   "sfx": [
+    [
+     "usbc-seat",
+     26,
+     0.44
+    ]
+   ],
+   "brand": "corner",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 11850,
+   "durationInFrames": 240,
+   "fromSec": 395
+  },
+  {
+   "id": "c4-tft",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    28,
+    36
+   ],
+   "cols": 2,
+   "eyebrow": "3.9in 480×128 24-bit RGB TFT",
+   "headline": "Full-colour metering, in and out",
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.4
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 12090,
+   "durationInFrames": 240,
+   "fromSec": 403
+  },
+  {
+   "id": "c4-control",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    40
+   ],
+   "fx": 0.5,
+   "fy": 0.5,
+   "eyebrow": "Control room",
+   "headline": "Talkback. A/B. Mono. Mute.",
+   "sub": "The monitor controls a tracking session actually reaches for.",
+   "accent": "signal",
+   "sfx": [
+    [
+     "talkback-click",
+     20,
+     0.52
+    ],
+    [
+     "talkback-click",
+     48,
+     0.44
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 12330,
+   "durationInFrames": 240,
+   "fromSec": 411
+  },
+  {
+   "id": "c4-monitoring",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    65,
+    52
+   ],
+   "cols": 2,
+   "eyebrow": "Monitor groups and talkback",
+   "headline": "Routed once. Recalled instantly.",
+   "brand": "lower",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 12570,
+   "durationInFrames": 240,
+   "fromSec": 419
+  },
+  {
+   "id": "c4-cabled",
+   "sec": 8,
+   "kind": "heroReveal",
+   "img": [
+    49
+   ],
+   "fx": 0.45,
+   "fy": 0.6,
+   "eyebrow": "Wired in",
+   "headline": "Every input live at the same time",
+   "sfx": [
+    [
+     "xlr-lock",
+     26,
+     0.42
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 12810,
+   "durationInFrames": 240,
+   "fromSec": 427
+  },
+  {
+   "id": "c4-renders",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    27,
+    33,
+    35
+   ],
+   "cols": 3,
+   "eyebrow": "Rear, in full",
+   "headline": "1U. Everything reachable.",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 13050,
+   "durationInFrames": 180,
+   "fromSec": 435
+  },
+  {
+   "id": "c4-cuemix",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    46,
+    48,
+    50,
+    54,
+    55
+   ],
+   "cols": 3,
+   "eyebrow": "CueMix 5",
+   "headline": "Two independent headphone mixes",
+   "sub": "EQ, gate, compression and reverb — computed on the interface.",
+   "brand": "corner",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 13230,
+   "durationInFrames": 240,
+   "fromSec": 441
+  },
+  {
+   "id": "c4-ios",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    53,
+    26
+   ],
+   "cols": 2,
+   "eyebrow": "Wireless control and loopback",
+   "headline": "Run the room from an iPad",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.42
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 13470,
+   "durationInFrames": 180,
+   "fromSec": 449
+  },
+  {
+   "id": "c4-lifestyle",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    56,
+    66,
+    58
+   ],
+   "cols": 3,
+   "eyebrow": "In the room",
+   "headline": "Tracking, monitoring, re-amping — one anchor",
+   "brand": "lower",
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 13650,
+   "durationInFrames": 240,
+   "fromSec": 455
+  },
+  {
+   "id": "c4-brand",
+   "sec": 7,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.42
+    ]
+   ],
+   "chapter": 4,
+   "chapterId": "anchor",
+   "chapterTitle": "The Studio Anchor",
+   "from": 13890,
+   "durationInFrames": 210,
+   "fromSec": 463
+  },
+  {
+   "id": "c5-open",
+   "sec": 7,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 05",
+   "headline": "The Proof",
+   "sub": "The gear disappears. The work starts.",
+   "brand": "corner",
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 14100,
+   "durationInFrames": 210,
+   "fromSec": 470
+  },
+  {
+   "id": "c5-transform",
+   "sec": 10,
+   "kind": "clipHero",
+   "clip": 8,
+   "trim": 0.5,
+   "rate": 0.95,
+   "grade": "warm",
+   "editorial": "Patched once, and left that way.",
+   "brand": "corner",
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 14310,
+   "durationInFrames": 300,
+   "fromSec": 477
+  },
+  {
+   "id": "c5-take",
+   "sec": 9,
+   "kind": "clipSplit",
+   "clip": 10,
+   "trim": 4.6,
+   "rate": 1,
+   "grade": "warm",
+   "headline": "The take that lands",
+   "body": "No drop-out. No buffer. No apology to the artist.",
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 14610,
+   "durationInFrames": 270,
+   "fromSec": 487
+  },
+  {
+   "id": "c5-dynamic",
+   "sec": 8,
+   "kind": "metricHero",
+   "img": [
+    34
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra conversion — identical in both units.",
+   "sfx": [
+    [
+     "avb-ping",
+     18,
+     0.44
+    ]
+   ],
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 14880,
+   "durationInFrames": 240,
+   "fromSec": 496
+  },
+  {
+   "id": "c5-gain",
+   "sec": 8,
+   "kind": "gainSwell",
+   "eyebrow": "Microphone preamplifiers",
+   "headline": "+74 dB",
+   "sub": "−129 dBu EIN, A-weighted, in 1 dB increments.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "xlr-lock",
+     22,
+     0.46
+    ]
+   ],
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 15120,
+   "durationInFrames": 240,
+   "fromSec": 504
+  },
+  {
+   "id": "c5-latency",
+   "sec": 9,
+   "kind": "metricPair",
+   "left": [
+    "2.4 ms",
+    "UltraLite-mk5"
+   ],
+   "right": [
+    "~2 ms",
+    "828"
+   ],
+   "eyebrow": "Round-trip latency",
+   "sub": "At 96 kHz with a 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     20,
+     0.46
+    ]
+   ],
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 15360,
+   "durationInFrames": 270,
+   "fromSec": 512
+  },
+  {
+   "id": "c5-channels",
+   "sec": 9,
+   "kind": "metricPair",
+   "img": [
+    69
+   ],
+   "left": [
+    "40",
+    "UltraLite-mk5 channels"
+   ],
+   "right": [
+    "60",
+    "828 channels"
+   ],
+   "eyebrow": "Simultaneous I/O",
+   "sub": "USB 2.0 High Speed and USB 3.2 Gen 1 at 5 Gbps.",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ],
+   "brand": "corner",
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 15630,
+   "durationInFrames": 270,
+   "fromSec": 521
+  },
+  {
+   "id": "c5-detail",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    24,
+    32
+   ],
+   "cols": 2,
+   "eyebrow": "Down to the connector",
+   "headline": "Gold-plated, DC-coupled, clocked",
+   "sfx": [
+    [
+     "trs-seat",
+     22,
+     0.44
+    ]
+   ],
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 15900,
+   "durationInFrames": 240,
+   "fromSec": 530
+  },
+  {
+   "id": "c5-scale",
+   "sec": 8,
+   "kind": "clipHero",
+   "clip": 4,
+   "trim": 6.2,
+   "rate": 0.92,
+   "grade": "warm",
+   "editorial": "Wherever the work happens.",
+   "brand": "corner",
+   "chapter": 5,
+   "chapterId": "proof",
+   "chapterTitle": "The Proof",
+   "from": 16140,
+   "durationInFrames": 240,
+   "fromSec": 538
+  },
+  {
+   "id": "c6-synthesis",
+   "sec": 12,
+   "kind": "compare",
+   "img": [
+    14,
+    25
+   ],
+   "eyebrow": "Choose the scale that fits the room",
+   "leftLabel": "UltraLite-mk5 · 40 channels · half-rack",
+   "rightLabel": "828 · 60 channels · 1U rack",
+   "sub": "One standard. Two environments.",
+   "motu": true,
+   "chapter": 6,
+   "chapterId": "scale",
+   "chapterTitle": "Choose Your Scale",
+   "from": 16380,
+   "durationInFrames": 360,
+   "fromSec": 546
+  },
+  {
+   "id": "c6-price",
+   "sec": 14,
+   "kind": "priceBeat",
+   "brand": "corner",
+   "eyebrow": "Market Operating Price",
+   "sfx": [
+    [
+     "avb-ping",
+     24,
+     0.44
+    ]
+   ],
+   "chapter": 6,
+   "chapterId": "scale",
+   "chapterTitle": "Choose Your Scale",
+   "from": 16740,
+   "durationInFrames": 420,
+   "fromSec": 558
+  },
+  {
+   "id": "c6-contact",
+   "sec": 12,
+   "kind": "contactBeat",
+   "socials": true,
+   "chapter": 6,
+   "chapterId": "scale",
+   "chapterTitle": "Choose Your Scale",
+   "from": 17160,
+   "durationInFrames": 360,
+   "fromSec": 572
+  },
+  {
+   "id": "c6-outro",
+   "sec": 14,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     30,
+     0.46
+    ]
+   ],
+   "chapter": 6,
+   "chapterId": "scale",
+   "chapterTitle": "Choose Your Scale",
+   "from": 17520,
+   "durationInFrames": 420,
+   "fromSec": 584
+  }
+ ],
+ "music": [
+  {
+   "chapter": 1,
+   "track": "ETERNITY",
+   "fromSec": 0,
+   "toSec": 96,
+   "stems": {
+    "BASS": 0.55,
+    "INSTRUMENTS": 0.42
+   },
+   "srcOffsetSec": 18
+  },
+  {
+   "chapter": 2,
+   "track": "Mindscape",
+   "fromSec": 96,
+   "toSec": 206,
+   "stems": {
+    "BASS": 0.5,
+    "INSTRUMENTS": 0.52,
+    "MELODY": 0.38
+   },
+   "srcOffsetSec": 6
+  },
+  {
+   "chapter": 3,
+   "track": "GIFTED",
+   "fromSec": 206,
+   "toSec": 332,
+   "stems": {
+    "BASS": 0.52,
+    "DRUMS": 0.34,
+    "INSTRUMENTS": 0.48
+   },
+   "srcOffsetSec": 0
+  },
+  {
+   "chapter": 4,
+   "track": "DIABLO",
+   "fromSec": 332,
+   "toSec": 470,
+   "stems": {
+    "BASS": 0.54,
+    "DRUMS": 0.38,
+    "INSTRUMENTS": 0.46,
+    "MELODY": 0.34
+   },
+   "srcOffsetSec": 20
+  },
+  {
+   "chapter": 5,
+   "track": "Black & Blue",
+   "fromSec": 470,
+   "toSec": 546,
+   "stems": {
+    "BASS": 0.5,
+    "DRUMS": 0.46,
+    "INSTRUMENTS": 0.5
+   },
+   "srcOffsetSec": 26
+  },
+  {
+   "chapter": 6,
+   "track": "Mindscape",
+   "fromSec": 546,
+   "toSec": 598,
+   "stems": {
+    "BASS": 0.48,
+    "INSTRUMENTS": 0.5,
+    "MELODY": 0.4
+   },
+   "srcOffsetSec": 96
+  }
+ ]
+}

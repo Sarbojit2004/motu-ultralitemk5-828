@@ -1,0 +1,827 @@
+{
+ "agile": [
+  {
+   "id": "c3-open",
+   "sec": 10,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 03",
+   "headline": "The Agile Hub",
+   "sub": "MOTU UltraLite-mk5 \u2014 dense I/O in a half-rack chassis.",
+   "motu": true,
+   "brand": "corner",
+   "bedClip": 9,
+   "bedTrim": 0.4,
+   "bedRate": 0.95
+  },
+  {
+   "id": "c3-hero",
+   "sec": 10,
+   "kind": "heroReveal",
+   "img": [
+    20
+   ],
+   "fx": 0.42,
+   "fy": 0.55,
+   "eyebrow": "MOTU UltraLite-mk5",
+   "headline": "Built for the desk, the backpack and the stage",
+   "sfx": [
+    [
+     "encoder-click",
+     26,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "c3-front",
+   "sec": 9,
+   "kind": "portSweep",
+   "img": [
+    16
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Front panel",
+   "headline": "Two combo preamps. One clean surface.",
+   "callouts": [
+    [
+     "MIC / LINE / INST",
+     0.13
+    ],
+    [
+     "MIC GAIN",
+     0.46
+    ],
+    [
+     "White OLED",
+     0.8
+    ]
+   ],
+   "sfx": [
+    [
+     "encoder-click",
+     18,
+     0.46
+    ],
+    [
+     "encoder-click",
+     40,
+     0.38
+    ]
+   ],
+   "brand": "corner"
+  },
+  {
+   "id": "c3-oled",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    4
+   ],
+   "fx": 0.72,
+   "fy": 0.5,
+   "eyebrow": "High-contrast white OLED",
+   "headline": "Every channel, at a glance",
+   "sub": "48 kHz \u00b7 INT LOCK \u2014 metering for mic, line in, main and line out.",
+   "sfx": [
+    [
+     "avb-ping",
+     22,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "c3-density",
+   "sec": 11,
+   "kind": "ioMatrix",
+   "ins": 18,
+   "outs": 22,
+   "eyebrow": "Form factor versus I/O density",
+   "headline": "40 channels",
+   "sub": "18 in, 22 out \u2014 simultaneous, in a half-rack steel chassis.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ]
+  },
+  {
+   "id": "c3-rear",
+   "sec": 10,
+   "kind": "portSweep",
+   "img": [
+    18
+   ],
+   "zoom": 2.8,
+   "eyebrow": "Rear panel",
+   "headline": "Ten TRS outputs. All DC-coupled.",
+   "callouts": [
+    [
+     "MIDI I/O",
+     0.09
+    ],
+    [
+     "USB-C",
+     0.3
+    ],
+    [
+     "ADAT",
+     0.42
+    ],
+    [
+     "LINE OUT",
+     0.68
+    ]
+   ],
+   "sfx": [
+    [
+     "trs-seat",
+     20,
+     0.44
+    ],
+    [
+     "usbc-seat",
+     44,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "c3-renders",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    6,
+    12
+   ],
+   "cols": 2,
+   "eyebrow": "Front and rear",
+   "headline": "The whole unit, both ways"
+  },
+  {
+   "id": "c3-desk",
+   "sec": 9,
+   "kind": "heroReveal",
+   "img": [
+    1
+   ],
+   "fx": 0.5,
+   "fy": 0.6,
+   "eyebrow": "On the desk",
+   "headline": "Everything patched. Nothing in the way.",
+   "brand": "corner"
+  },
+  {
+   "id": "c3-mobile",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    7,
+    22
+   ],
+   "cols": 2,
+   "eyebrow": "Desktop and iOS",
+   "headline": "CueMix 5, wherever you are working",
+   "sfx": [
+    [
+     "usbc-seat",
+     20,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "c3-studio",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    9,
+    21
+   ],
+   "cols": 2,
+   "eyebrow": "In the room",
+   "headline": "A hub the desk can actually hold",
+   "brand": "lower"
+  },
+  {
+   "id": "c3-amp",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    5,
+    3
+   ],
+   "cols": 2,
+   "eyebrow": "Stage and stack",
+   "headline": "Rugged enough to travel"
+  },
+  {
+   "id": "c3-cuemix",
+   "sec": 9,
+   "kind": "montage",
+   "img": [
+    2,
+    11,
+    13,
+    15,
+    17
+   ],
+   "cols": 3,
+   "eyebrow": "CueMix 5",
+   "headline": "EQ, dynamics, reverb and loopback \u2014 on board",
+   "sub": "Zero-latency monitor mixes without taxing the host CPU.",
+   "brand": "corner"
+  },
+  {
+   "id": "c3-rack",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    8,
+    10
+   ],
+   "cols": 2,
+   "eyebrow": "Optional rack ears",
+   "headline": "Desktop today. Rack tomorrow.",
+   "sfx": [
+    [
+     "encoder-click",
+     20,
+     0.36
+    ]
+   ]
+  },
+  {
+   "id": "c3-brand",
+   "sec": 8,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.42
+    ]
+   ]
+  }
+ ],
+ "anchor": [
+  {
+   "id": "c4-open",
+   "sec": 7,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 04",
+   "headline": "The Studio Anchor",
+   "sub": "MOTU 828 \u2014 the rack-mounted centre of a growing room.",
+   "motu": true,
+   "brand": "corner",
+   "bedClip": 9,
+   "bedTrim": 5.2,
+   "bedRate": 0.95
+  },
+  {
+   "id": "c4-hero",
+   "sec": 8,
+   "kind": "heroReveal",
+   "img": [
+    59
+   ],
+   "fx": 0.5,
+   "fy": 0.55,
+   "eyebrow": "MOTU 828",
+   "headline": "The central nervous system of the control room",
+   "sfx": [
+    [
+     "encoder-click",
+     26,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "c4-front",
+   "sec": 8,
+   "kind": "portSweep",
+   "img": [
+    31
+   ],
+   "zoom": 2.7,
+   "eyebrow": "Front panel",
+   "headline": "Talkback, monitor control, dual headphones",
+   "callouts": [
+    [
+     "MIC / LINE / INST",
+     0.1
+    ],
+    [
+     "GAIN",
+     0.34
+    ],
+    [
+     "3.9in RGB TFT",
+     0.6
+    ],
+    [
+     "MENU",
+     0.86
+    ]
+   ],
+   "sfx": [
+    [
+     "talkback-click",
+     22,
+     0.46
+    ]
+   ]
+  },
+  {
+   "id": "c4-bandwidth",
+   "sec": 9,
+   "kind": "ioMatrix",
+   "ins": 28,
+   "outs": 32,
+   "img": [
+    29
+   ],
+   "eyebrow": "Unrestricted bandwidth",
+   "headline": "60 channels",
+   "sub": "28 in, 32 out \u2014 simultaneous, over USB 3.2 Gen 1 at 5 Gbps.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ]
+  },
+  {
+   "id": "c4-usb",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    30
+   ],
+   "fx": 0.55,
+   "fy": 0.62,
+   "eyebrow": "Host connectivity",
+   "headline": "USB 3.2 Gen 1 \u00b7 5 Gbps",
+   "sub": "A single USB-C connection carries the whole channel count.",
+   "sfx": [
+    [
+     "usbc-seat",
+     24,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "c4-rear",
+   "sec": 8,
+   "kind": "portSweep",
+   "img": [
+    37
+   ],
+   "zoom": 3.0,
+   "eyebrow": "Rear panel",
+   "headline": "Word Clock, dual optical, inserts, main outs",
+   "callouts": [
+    [
+     "WORD CLOCK",
+     0.07
+    ],
+    [
+     "OPTICAL A + B",
+     0.2
+    ],
+    [
+     "MAIN OUT XLR",
+     0.6
+    ],
+    [
+     "MIC INSERT",
+     0.9
+    ]
+   ],
+   "sfx": [
+    [
+     "trs-seat",
+     22,
+     0.42
+    ],
+    [
+     "xlr-lock",
+     50,
+     0.4
+    ]
+   ],
+   "brand": "corner"
+  },
+  {
+   "id": "c4-rear2",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    39
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Every connection",
+   "headline": "Eight TRS in. Eight TRS out. Two XLR mains."
+  },
+  {
+   "id": "c4-inserts",
+   "sec": 9,
+   "kind": "heroMacro",
+   "img": [
+    60
+   ],
+   "fx": 0.62,
+   "fy": 0.5,
+   "eyebrow": "Analog integration",
+   "headline": "Dedicated preamp send and return",
+   "sub": "Patch a compressor across the mic channel before it ever hits conversion.",
+   "accent": "signal",
+   "sfx": [
+    [
+     "trs-seat",
+     24,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "c4-adat",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    42
+   ],
+   "fx": 0.4,
+   "fy": 0.5,
+   "eyebrow": "Dual ADAT banks",
+   "headline": "Sixteen more channels, optically",
+   "sub": "Two banks \u2014 A and B \u2014 plus S/PDIF and full MIDI.",
+   "sfx": [
+    [
+     "usbc-seat",
+     26,
+     0.44
+    ]
+   ],
+   "brand": "corner"
+  },
+  {
+   "id": "c4-tft",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    28,
+    36
+   ],
+   "cols": 2,
+   "eyebrow": "3.9in 480\u00d7128 24-bit RGB TFT",
+   "headline": "Full-colour metering, in and out",
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "c4-control",
+   "sec": 8,
+   "kind": "heroMacro",
+   "img": [
+    40
+   ],
+   "fx": 0.5,
+   "fy": 0.5,
+   "eyebrow": "Control room",
+   "headline": "Talkback. A/B. Mono. Mute.",
+   "sub": "The monitor controls a tracking session actually reaches for.",
+   "accent": "signal",
+   "sfx": [
+    [
+     "talkback-click",
+     20,
+     0.52
+    ],
+    [
+     "talkback-click",
+     48,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "c4-monitoring",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    65,
+    52
+   ],
+   "cols": 2,
+   "eyebrow": "Monitor groups and talkback",
+   "headline": "Routed once. Recalled instantly.",
+   "brand": "lower"
+  },
+  {
+   "id": "c4-cabled",
+   "sec": 8,
+   "kind": "heroReveal",
+   "img": [
+    49
+   ],
+   "fx": 0.45,
+   "fy": 0.6,
+   "eyebrow": "Wired in",
+   "headline": "Every input live at the same time",
+   "sfx": [
+    [
+     "xlr-lock",
+     26,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "c4-renders",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    27,
+    33,
+    35
+   ],
+   "cols": 3,
+   "eyebrow": "Rear, in full",
+   "headline": "1U. Everything reachable."
+  },
+  {
+   "id": "c4-cuemix",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    46,
+    48,
+    50,
+    54,
+    55
+   ],
+   "cols": 3,
+   "eyebrow": "CueMix 5",
+   "headline": "Two independent headphone mixes",
+   "sub": "EQ, gate, compression and reverb \u2014 computed on the interface.",
+   "brand": "corner"
+  },
+  {
+   "id": "c4-ios",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    53,
+    26
+   ],
+   "cols": 2,
+   "eyebrow": "Wireless control and loopback",
+   "headline": "Run the room from an iPad",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "c4-lifestyle",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    56,
+    66,
+    58
+   ],
+   "cols": 3,
+   "eyebrow": "In the room",
+   "headline": "Tracking, monitoring, re-amping \u2014 one anchor",
+   "brand": "lower"
+  },
+  {
+   "id": "c4-brand",
+   "sec": 7,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     20,
+     0.42
+    ]
+   ]
+  }
+ ],
+ "proof": [
+  {
+   "id": "c5-open",
+   "sec": 7,
+   "kind": "chapterOpen",
+   "eyebrow": "Chapter 05",
+   "headline": "The Proof",
+   "sub": "The gear disappears. The work starts.",
+   "brand": "corner"
+  },
+  {
+   "id": "c5-transform",
+   "sec": 10,
+   "kind": "clipHero",
+   "clip": 8,
+   "trim": 0.5,
+   "rate": 0.95,
+   "grade": "warm",
+   "editorial": "Patched once, and left that way.",
+   "brand": "corner"
+  },
+  {
+   "id": "c5-take",
+   "sec": 9,
+   "kind": "clipSplit",
+   "clip": 10,
+   "trim": 4.6,
+   "rate": 1.0,
+   "grade": "warm",
+   "headline": "The take that lands",
+   "body": "No drop-out. No buffer. No apology to the artist."
+  },
+  {
+   "id": "c5-dynamic",
+   "sec": 8,
+   "kind": "metricHero",
+   "img": [
+    34
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra conversion \u2014 identical in both units.",
+   "sfx": [
+    [
+     "avb-ping",
+     18,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "c5-gain",
+   "sec": 8,
+   "kind": "gainSwell",
+   "eyebrow": "Microphone preamplifiers",
+   "headline": "+74 dB",
+   "sub": "\u2212129 dBu EIN, A-weighted, in 1 dB increments.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "xlr-lock",
+     22,
+     0.46
+    ]
+   ]
+  },
+  {
+   "id": "c5-latency",
+   "sec": 9,
+   "kind": "metricPair",
+   "left": [
+    "2.4 ms",
+    "UltraLite-mk5"
+   ],
+   "right": [
+    "~2 ms",
+    "828"
+   ],
+   "eyebrow": "Round-trip latency",
+   "sub": "At 96 kHz with a 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     20,
+     0.46
+    ]
+   ]
+  },
+  {
+   "id": "c5-channels",
+   "sec": 9,
+   "kind": "metricPair",
+   "img": [
+    69
+   ],
+   "left": [
+    "40",
+    "UltraLite-mk5 channels"
+   ],
+   "right": [
+    "60",
+    "828 channels"
+   ],
+   "eyebrow": "Simultaneous I/O",
+   "sub": "USB 2.0 High Speed and USB 3.2 Gen 1 at 5 Gbps.",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ],
+   "brand": "corner"
+  },
+  {
+   "id": "c5-detail",
+   "sec": 8,
+   "kind": "montage",
+   "img": [
+    24,
+    32
+   ],
+   "cols": 2,
+   "eyebrow": "Down to the connector",
+   "headline": "Gold-plated, DC-coupled, clocked",
+   "sfx": [
+    [
+     "trs-seat",
+     22,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "c5-scale",
+   "sec": 8,
+   "kind": "clipHero",
+   "clip": 4,
+   "trim": 6.2,
+   "rate": 0.92,
+   "grade": "warm",
+   "editorial": "Wherever the work happens.",
+   "brand": "corner"
+  }
+ ],
+ "scale": [
+  {
+   "id": "c6-synthesis",
+   "sec": 12,
+   "kind": "compare",
+   "img": [
+    14,
+    25
+   ],
+   "eyebrow": "Choose the scale that fits the room",
+   "leftLabel": "UltraLite-mk5 \u00b7 40 channels \u00b7 half-rack",
+   "rightLabel": "828 \u00b7 60 channels \u00b7 1U rack",
+   "sub": "One standard. Two environments.",
+   "motu": true
+  },
+  {
+   "id": "c6-price",
+   "sec": 14,
+   "kind": "priceBeat",
+   "brand": "corner",
+   "eyebrow": "Market Operating Price",
+   "sfx": [
+    [
+     "avb-ping",
+     24,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "c6-contact",
+   "sec": 12,
+   "kind": "contactBeat",
+   "socials": true
+  },
+  {
+   "id": "c6-outro",
+   "sec": 14,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     30,
+     0.46
+    ]
+   ]
+  }
+ ]
+}
