@@ -1,0 +1,747 @@
+{
+ "id": "Reel2",
+ "reel": 2,
+ "title": "The Studio Anchor",
+ "product": "MOTU 828",
+ "outName": "motu-ultralite828-reel-2",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInSeconds": 178,
+ "durationInFrames": 5340,
+ "voSlot": "voiceover-reel2.mp3",
+ "musicSuffix": "-reel2",
+ "beats": [
+  {
+   "id": "r2-hook",
+   "sec": 7,
+   "kind": "clipHero",
+   "clip": 2,
+   "trim": 0.5,
+   "rate": 0.95,
+   "grade": "cool",
+   "eyebrow": "The Architecture of Scale",
+   "editorial": "Out of inputs.",
+   "sub": "Mid-session.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 0,
+   "durationInFrames": 210,
+   "fromSec": 0
+  },
+  {
+   "id": "r2-ceiling",
+   "sec": 6,
+   "kind": "clipSplit",
+   "clip": 6,
+   "trim": 5.6,
+   "rate": 1.05,
+   "grade": "cool",
+   "headline": "The hard ceiling",
+   "body": "Re-patching around a full interface is not workflow.",
+   "sfx": [
+    [
+     "trs-seat",
+     12,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 210,
+   "durationInFrames": 180,
+   "fromSec": 7
+  },
+  {
+   "id": "r2-turn",
+   "sec": 6,
+   "kind": "statement",
+   "eyebrow": "Two answers, one standard",
+   "editorial": "One standard.",
+   "sub": "Two environments.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.46
+    ]
+   ],
+   "motu": true,
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 390,
+   "durationInFrames": 180,
+   "fromSec": 13
+  },
+  {
+   "id": "r2-standard",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    34
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra — identical in both units.",
+   "sfx": [
+    [
+     "encoder-click",
+     14,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 570,
+   "durationInFrames": 180,
+   "fromSec": 19
+  },
+  {
+   "id": "r2-preamp",
+   "sec": 6,
+   "kind": "gainSwell",
+   "eyebrow": "Redesigned preamplifiers",
+   "headline": "+74 dB",
+   "sub": "−129 dBu EIN, A-weighted.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "xlr-lock",
+     14,
+     0.48
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 750,
+   "durationInFrames": 180,
+   "fromSec": 25
+  },
+  {
+   "id": "r2-intro",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    59
+   ],
+   "fx": 0.5,
+   "fy": 0.55,
+   "eyebrow": "MOTU 828",
+   "headline": "The Studio Anchor",
+   "sfx": [
+    [
+     "encoder-click",
+     16,
+     0.4
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 930,
+   "durationInFrames": 180,
+   "fromSec": 31
+  },
+  {
+   "id": "r2-front",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    31
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Front panel",
+   "headline": "Talkback. Monitor control.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "talkback-click",
+     14,
+     0.48
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 1110,
+   "durationInFrames": 180,
+   "fromSec": 37
+  },
+  {
+   "id": "r2-front2",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    29
+   ],
+   "eyebrow": "One rack unit",
+   "headline": "Everything reachable",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 1290,
+   "durationInFrames": 150,
+   "fromSec": 43
+  },
+  {
+   "id": "r2-bandwidth",
+   "sec": 7,
+   "kind": "ioMatrix",
+   "ins": 28,
+   "outs": 32,
+   "img": [
+    69
+   ],
+   "eyebrow": "Unrestricted bandwidth",
+   "headline": "60 channels",
+   "sub": "USB 3.2 Gen 1 at 5 Gbps.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 1440,
+   "durationInFrames": 210,
+   "fromSec": 48
+  },
+  {
+   "id": "r2-usb",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    30
+   ],
+   "fx": 0.55,
+   "fy": 0.62,
+   "eyebrow": "Host connectivity",
+   "headline": "One USB-C carries it all",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.5
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 1650,
+   "durationInFrames": 180,
+   "fromSec": 55
+  },
+  {
+   "id": "r2-rear",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    37
+   ],
+   "zoom": 2.8,
+   "eyebrow": "Rear panel",
+   "headline": "Word clock. Dual optical.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     14,
+     0.42
+    ],
+    [
+     "xlr-lock",
+     34,
+     0.4
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 1830,
+   "durationInFrames": 180,
+   "fromSec": 61
+  },
+  {
+   "id": "r2-rear2",
+   "sec": 5,
+   "kind": "portSweep",
+   "img": [
+    39
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Every connection",
+   "headline": "Eight in. Eight out.",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2010,
+   "durationInFrames": 150,
+   "fromSec": 67
+  },
+  {
+   "id": "r2-inserts",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    60
+   ],
+   "fx": 0.62,
+   "fy": 0.5,
+   "eyebrow": "Analog integration",
+   "headline": "Dedicated preamp inserts",
+   "accent": "signal",
+   "brand": "corner",
+   "sfx": [
+    [
+     "trs-seat",
+     16,
+     0.5
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2160,
+   "durationInFrames": 180,
+   "fromSec": 72
+  },
+  {
+   "id": "r2-adat",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    42
+   ],
+   "fx": 0.4,
+   "fy": 0.5,
+   "eyebrow": "Dual ADAT banks",
+   "headline": "Sixteen more, optically",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.44
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2340,
+   "durationInFrames": 180,
+   "fromSec": 78
+  },
+  {
+   "id": "r2-tft",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    28,
+    36
+   ],
+   "cols": 1,
+   "eyebrow": "3.9in RGB TFT",
+   "headline": "Full-colour metering",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.4
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2520,
+   "durationInFrames": 180,
+   "fromSec": 84
+  },
+  {
+   "id": "r2-control",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    40
+   ],
+   "fx": 0.5,
+   "fy": 0.5,
+   "eyebrow": "Control room",
+   "headline": "Talkback. A/B. Mono.",
+   "accent": "signal",
+   "brand": "lower",
+   "sfx": [
+    [
+     "talkback-click",
+     14,
+     0.5
+    ],
+    [
+     "talkback-click",
+     32,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2700,
+   "durationInFrames": 180,
+   "fromSec": 90
+  },
+  {
+   "id": "r2-monitor",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    65,
+    52
+   ],
+   "cols": 1,
+   "eyebrow": "Monitor groups",
+   "headline": "Routed once. Recalled instantly.",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 2880,
+   "durationInFrames": 180,
+   "fromSec": 96
+  },
+  {
+   "id": "r2-cabled",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    49
+   ],
+   "fx": 0.45,
+   "fy": 0.6,
+   "eyebrow": "Wired in",
+   "headline": "Every input live",
+   "brand": "corner",
+   "sfx": [
+    [
+     "xlr-lock",
+     16,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3060,
+   "durationInFrames": 180,
+   "fromSec": 102
+  },
+  {
+   "id": "r2-renders",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    25,
+    27,
+    33,
+    35
+   ],
+   "cols": 1,
+   "eyebrow": "Around the unit",
+   "headline": "1U, front to back",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3240,
+   "durationInFrames": 150,
+   "fromSec": 108
+  },
+  {
+   "id": "r2-detail",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    24,
+    32
+   ],
+   "cols": 1,
+   "eyebrow": "Down to the connector",
+   "headline": "Gold-plated. DC-coupled.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     14,
+     0.44
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3390,
+   "durationInFrames": 180,
+   "fromSec": 113
+  },
+  {
+   "id": "r2-latency",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    51
+   ],
+   "metric": "~2 ms",
+   "context": "Round-trip latency",
+   "narrative": "At 96 kHz, 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.44
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3570,
+   "durationInFrames": 180,
+   "fromSec": 119
+  },
+  {
+   "id": "r2-loopback",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    26
+   ],
+   "eyebrow": "Loopback",
+   "headline": "Stream without a second machine",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3750,
+   "durationInFrames": 150,
+   "fromSec": 125
+  },
+  {
+   "id": "r2-cuemix",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    46,
+    48,
+    50,
+    54,
+    55
+   ],
+   "cols": 2,
+   "eyebrow": "CueMix 5",
+   "headline": "Two independent headphone mixes",
+   "brand": "corner",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 3900,
+   "durationInFrames": 180,
+   "fromSec": 130
+  },
+  {
+   "id": "r2-ios",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    53
+   ],
+   "eyebrow": "Wireless control",
+   "headline": "Run the room from an iPad",
+   "sfx": [
+    [
+     "usbc-seat",
+     12,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4080,
+   "durationInFrames": 150,
+   "fromSec": 136
+  },
+  {
+   "id": "r2-daw",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    47
+   ],
+   "eyebrow": "Straight into the session",
+   "headline": "macOS. Windows. iOS.",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4230,
+   "durationInFrames": 150,
+   "fromSec": 141
+  },
+  {
+   "id": "r2-room",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    56,
+    63,
+    66,
+    68
+   ],
+   "cols": 2,
+   "eyebrow": "In the room",
+   "headline": "Tracking. Monitoring. Re-amping.",
+   "brand": "lower",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4380,
+   "durationInFrames": 150,
+   "fromSec": 146
+  },
+  {
+   "id": "r2-foot",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    58
+   ],
+   "eyebrow": "Foot switch",
+   "headline": "Hands-free punch-in",
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4530,
+   "durationInFrames": 150,
+   "fromSec": 151
+  },
+  {
+   "id": "r2-brand",
+   "sec": 6,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.42
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4680,
+   "durationInFrames": 180,
+   "fromSec": 156
+  },
+  {
+   "id": "r2-price",
+   "sec": 7,
+   "kind": "priceBeat",
+   "eyebrow": "Market Operating Price",
+   "brand": "corner",
+   "sfx": [
+    [
+     "avb-ping",
+     16,
+     0.44
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 4860,
+   "durationInFrames": 210,
+   "fromSec": 162
+  },
+  {
+   "id": "r2-outro",
+   "sec": 9,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     22,
+     0.46
+    ]
+   ],
+   "chapter": 2,
+   "chapterId": "reel2",
+   "chapterTitle": "The Studio Anchor",
+   "from": 5070,
+   "durationInFrames": 270,
+   "fromSec": 169
+  }
+ ],
+ "music": [
+  {
+   "chapter": 1,
+   "track": "Mindscape",
+   "fromSec": 0,
+   "toSec": 8,
+   "srcOffsetSec": 8,
+   "stems": {
+    "BASS": 0.46,
+    "INSTRUMENTS": 0.5,
+    "MELODY": 0.38
+   }
+  },
+  {
+   "chapter": 2,
+   "track": "ETERNITY",
+   "fromSec": 8,
+   "toSec": 31,
+   "srcOffsetSec": 60,
+   "stems": {
+    "BASS": 0.55,
+    "INSTRUMENTS": 0.42
+   }
+  },
+  {
+   "chapter": 3,
+   "track": "DIABLO",
+   "fromSec": 31,
+   "toSec": 152,
+   "srcOffsetSec": 12,
+   "stems": {
+    "BASS": 0.54,
+    "DRUMS": 0.38,
+    "INSTRUMENTS": 0.46,
+    "MELODY": 0.34
+   }
+  },
+  {
+   "chapter": 4,
+   "track": "Mindscape",
+   "fromSec": 152,
+   "toSec": 178,
+   "srcOffsetSec": 120,
+   "stems": {
+    "BASS": 0.48,
+    "INSTRUMENTS": 0.5,
+    "MELODY": 0.4
+   }
+  }
+ ]
+}
