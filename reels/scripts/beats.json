@@ -1,0 +1,930 @@
+{
+ "reel1": [
+  {
+   "id": "r1-hook",
+   "sec": 8,
+   "kind": "clipHero",
+   "clip": 1,
+   "trim": 5.2,
+   "rate": 0.95,
+   "grade": "cool",
+   "eyebrow": "The Architecture of Scale",
+   "editorial": "No free input.",
+   "sub": "Again.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ]
+  },
+  {
+   "id": "r1-pain",
+   "sec": 7,
+   "kind": "clipSplit",
+   "clip": 2,
+   "trim": 6.4,
+   "rate": 1.0,
+   "grade": "cool",
+   "headline": "The monitor drops",
+   "body": "Latency does not cost you time. It costs you the take."
+  },
+  {
+   "id": "r1-turn",
+   "sec": 6,
+   "kind": "statement",
+   "eyebrow": "Two answers, one standard",
+   "editorial": "It was never about better.",
+   "sub": "Only about scale.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.46
+    ]
+   ],
+   "motu": true
+  },
+  {
+   "id": "r1-standard",
+   "sec": 7,
+   "kind": "badgeSpec",
+   "img": [
+    57
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra \u2014 ES9026PRO.",
+   "sfx": [
+    [
+     "encoder-click",
+     16,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r1-cuemix",
+   "sec": 6,
+   "kind": "badgeSpec",
+   "img": [
+    41
+   ],
+   "metric": "CueMix 5",
+   "context": "DSP mixing ecosystem",
+   "narrative": "EQ, dynamics, reverb and loopback \u2014 on board.",
+   "accent": "signal",
+   "brand": "corner"
+  },
+  {
+   "id": "r1-preamp",
+   "sec": 7,
+   "kind": "gainSwell",
+   "eyebrow": "Redesigned preamplifiers",
+   "headline": "+74 dB",
+   "sub": "\u2212129 dBu EIN, A-weighted.",
+   "sfx": [
+    [
+     "xlr-lock",
+     16,
+     0.48
+    ]
+   ]
+  },
+  {
+   "id": "r1-intro",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    20
+   ],
+   "fx": 0.45,
+   "fy": 0.55,
+   "eyebrow": "MOTU UltraLite-mk5",
+   "headline": "The Agile Hub",
+   "brand": "lower",
+   "sfx": [
+    [
+     "encoder-click",
+     18,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "r1-density",
+   "sec": 8,
+   "kind": "ioMatrix",
+   "ins": 18,
+   "outs": 22,
+   "eyebrow": "Form factor vs I/O density",
+   "headline": "40 channels",
+   "sub": "18 in, 22 out \u2014 in a half-rack chassis.",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ]
+  },
+  {
+   "id": "r1-front",
+   "sec": 7,
+   "kind": "portSweep",
+   "img": [
+    16
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Front panel",
+   "headline": "Two combo preamps",
+   "brand": "corner",
+   "sfx": [
+    [
+     "encoder-click",
+     14,
+     0.44
+    ],
+    [
+     "encoder-click",
+     34,
+     0.36
+    ]
+   ]
+  },
+  {
+   "id": "r1-oled",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    4
+   ],
+   "fx": 0.72,
+   "fy": 0.5,
+   "eyebrow": "White OLED",
+   "headline": "Every channel, at a glance",
+   "sfx": [
+    [
+     "avb-ping",
+     16,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "r1-rear",
+   "sec": 7,
+   "kind": "portSweep",
+   "img": [
+    18
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Rear panel",
+   "headline": "Ten TRS outs. All DC-coupled.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     16,
+     0.46
+    ],
+    [
+     "usbc-seat",
+     36,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r1-renders",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    6,
+    12,
+    14
+   ],
+   "cols": 1,
+   "eyebrow": "Front and rear",
+   "headline": "The whole unit, both ways"
+  },
+  {
+   "id": "r1-desk",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    1
+   ],
+   "fx": 0.5,
+   "fy": 0.6,
+   "eyebrow": "On the desk",
+   "headline": "Everything patched",
+   "brand": "corner"
+  },
+  {
+   "id": "r1-stack",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    3,
+    5
+   ],
+   "cols": 1,
+   "eyebrow": "Stage and stack",
+   "headline": "Rugged enough to travel"
+  },
+  {
+   "id": "r1-mobile",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    7,
+    22
+   ],
+   "cols": 1,
+   "eyebrow": "Desktop and iOS",
+   "headline": "CueMix 5, wherever you work",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r1-studio",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    9,
+    21
+   ],
+   "cols": 1,
+   "eyebrow": "In the room",
+   "headline": "Small enough for the shelf",
+   "brand": "lower"
+  },
+  {
+   "id": "r1-system",
+   "sec": 6,
+   "kind": "heroWide",
+   "img": [
+    23
+   ],
+   "eyebrow": "Everything, connected",
+   "headline": "One hub for the room"
+  },
+  {
+   "id": "r1-cuemix2",
+   "sec": 7,
+   "kind": "montage",
+   "img": [
+    2,
+    11,
+    13,
+    15,
+    17
+   ],
+   "cols": 2,
+   "eyebrow": "CueMix 5",
+   "headline": "Zero-latency monitor mixes",
+   "brand": "corner"
+  },
+  {
+   "id": "r1-latency",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    19
+   ],
+   "metric": "2.4 ms",
+   "context": "Round-trip latency",
+   "narrative": "At 96 kHz, 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r1-modular",
+   "sec": 6,
+   "kind": "clipSplit",
+   "clip": 8,
+   "trim": 0.6,
+   "rate": 0.95,
+   "grade": "warm",
+   "headline": "Leave it patched",
+   "body": "DC-coupled outputs drive control voltage straight from the DAW."
+  },
+  {
+   "id": "r1-dc",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    44,
+    64
+   ],
+   "cols": 1,
+   "eyebrow": "DC-coupled outputs",
+   "headline": "Straight into the modular",
+   "brand": "lower"
+  },
+  {
+   "id": "r1-rack",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    8,
+    10
+   ],
+   "cols": 1,
+   "eyebrow": "Optional rack ears",
+   "headline": "Desktop today. Rack tomorrow.",
+   "sfx": [
+    [
+     "encoder-click",
+     12,
+     0.36
+    ]
+   ]
+  },
+  {
+   "id": "r1-daw",
+   "sec": 6,
+   "kind": "heroWide",
+   "img": [
+    45
+   ],
+   "eyebrow": "Straight into the session",
+   "headline": "macOS. Windows. iOS."
+  },
+  {
+   "id": "r1-bundles",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    38,
+    43,
+    61,
+    62,
+    67
+   ],
+   "cols": 2,
+   "eyebrow": "Included software",
+   "headline": "Ready on day one",
+   "brand": "corner"
+  },
+  {
+   "id": "r1-brand",
+   "sec": 6,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r1-price",
+   "sec": 9,
+   "kind": "priceBeat",
+   "eyebrow": "Market Operating Price",
+   "brand": "corner",
+   "sfx": [
+    [
+     "avb-ping",
+     18,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r1-outro",
+   "sec": 11,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     24,
+     0.46
+    ]
+   ]
+  }
+ ],
+ "reel2": [
+  {
+   "id": "r2-hook",
+   "sec": 7,
+   "kind": "clipHero",
+   "clip": 2,
+   "trim": 0.5,
+   "rate": 0.95,
+   "grade": "cool",
+   "eyebrow": "The Architecture of Scale",
+   "editorial": "Out of inputs.",
+   "sub": "Mid-session.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ]
+  },
+  {
+   "id": "r2-ceiling",
+   "sec": 6,
+   "kind": "clipSplit",
+   "clip": 6,
+   "trim": 5.6,
+   "rate": 1.05,
+   "grade": "cool",
+   "headline": "The hard ceiling",
+   "body": "Re-patching around a full interface is not workflow.",
+   "sfx": [
+    [
+     "trs-seat",
+     12,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-turn",
+   "sec": 6,
+   "kind": "statement",
+   "eyebrow": "Two answers, one standard",
+   "editorial": "One standard.",
+   "sub": "Two environments.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.46
+    ]
+   ],
+   "motu": true
+  },
+  {
+   "id": "r2-standard",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    34
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra \u2014 identical in both units.",
+   "sfx": [
+    [
+     "encoder-click",
+     14,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-preamp",
+   "sec": 6,
+   "kind": "gainSwell",
+   "eyebrow": "Redesigned preamplifiers",
+   "headline": "+74 dB",
+   "sub": "\u2212129 dBu EIN, A-weighted.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "xlr-lock",
+     14,
+     0.48
+    ]
+   ]
+  },
+  {
+   "id": "r2-intro",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    59
+   ],
+   "fx": 0.5,
+   "fy": 0.55,
+   "eyebrow": "MOTU 828",
+   "headline": "The Studio Anchor",
+   "sfx": [
+    [
+     "encoder-click",
+     16,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "r2-front",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    31
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Front panel",
+   "headline": "Talkback. Monitor control.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "talkback-click",
+     14,
+     0.48
+    ]
+   ]
+  },
+  {
+   "id": "r2-front2",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    29
+   ],
+   "eyebrow": "One rack unit",
+   "headline": "Everything reachable"
+  },
+  {
+   "id": "r2-bandwidth",
+   "sec": 7,
+   "kind": "ioMatrix",
+   "ins": 28,
+   "outs": 32,
+   "img": [
+    69
+   ],
+   "eyebrow": "Unrestricted bandwidth",
+   "headline": "60 channels",
+   "sub": "USB 3.2 Gen 1 at 5 Gbps.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ]
+  },
+  {
+   "id": "r2-usb",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    30
+   ],
+   "fx": 0.55,
+   "fy": 0.62,
+   "eyebrow": "Host connectivity",
+   "headline": "One USB-C carries it all",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "r2-rear",
+   "sec": 6,
+   "kind": "portSweep",
+   "img": [
+    37
+   ],
+   "zoom": 2.8,
+   "eyebrow": "Rear panel",
+   "headline": "Word clock. Dual optical.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     14,
+     0.42
+    ],
+    [
+     "xlr-lock",
+     34,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "r2-rear2",
+   "sec": 5,
+   "kind": "portSweep",
+   "img": [
+    39
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Every connection",
+   "headline": "Eight in. Eight out."
+  },
+  {
+   "id": "r2-inserts",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    60
+   ],
+   "fx": 0.62,
+   "fy": 0.5,
+   "eyebrow": "Analog integration",
+   "headline": "Dedicated preamp inserts",
+   "accent": "signal",
+   "brand": "corner",
+   "sfx": [
+    [
+     "trs-seat",
+     16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "r2-adat",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    42
+   ],
+   "fx": 0.4,
+   "fy": 0.5,
+   "eyebrow": "Dual ADAT banks",
+   "headline": "Sixteen more, optically",
+   "sfx": [
+    [
+     "usbc-seat",
+     16,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r2-tft",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    28,
+    36
+   ],
+   "cols": 1,
+   "eyebrow": "3.9in RGB TFT",
+   "headline": "Full-colour metering",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "r2-control",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    40
+   ],
+   "fx": 0.5,
+   "fy": 0.5,
+   "eyebrow": "Control room",
+   "headline": "Talkback. A/B. Mono.",
+   "accent": "signal",
+   "brand": "lower",
+   "sfx": [
+    [
+     "talkback-click",
+     14,
+     0.5
+    ],
+    [
+     "talkback-click",
+     32,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-monitor",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    65,
+    52
+   ],
+   "cols": 1,
+   "eyebrow": "Monitor groups",
+   "headline": "Routed once. Recalled instantly."
+  },
+  {
+   "id": "r2-cabled",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    49
+   ],
+   "fx": 0.45,
+   "fy": 0.6,
+   "eyebrow": "Wired in",
+   "headline": "Every input live",
+   "brand": "corner",
+   "sfx": [
+    [
+     "xlr-lock",
+     16,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-renders",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    25,
+    27,
+    33,
+    35
+   ],
+   "cols": 1,
+   "eyebrow": "Around the unit",
+   "headline": "1U, front to back"
+  },
+  {
+   "id": "r2-detail",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    24,
+    32
+   ],
+   "cols": 1,
+   "eyebrow": "Down to the connector",
+   "headline": "Gold-plated. DC-coupled.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     14,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r2-latency",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    51
+   ],
+   "metric": "~2 ms",
+   "context": "Round-trip latency",
+   "narrative": "At 96 kHz, 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r2-loopback",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    26
+   ],
+   "eyebrow": "Loopback",
+   "headline": "Stream without a second machine"
+  },
+  {
+   "id": "r2-cuemix",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    46,
+    48,
+    50,
+    54,
+    55
+   ],
+   "cols": 2,
+   "eyebrow": "CueMix 5",
+   "headline": "Two independent headphone mixes",
+   "brand": "corner"
+  },
+  {
+   "id": "r2-ios",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    53
+   ],
+   "eyebrow": "Wireless control",
+   "headline": "Run the room from an iPad",
+   "sfx": [
+    [
+     "usbc-seat",
+     12,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-daw",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    47
+   ],
+   "eyebrow": "Straight into the session",
+   "headline": "macOS. Windows. iOS."
+  },
+  {
+   "id": "r2-room",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    56,
+    63,
+    66,
+    68
+   ],
+   "cols": 2,
+   "eyebrow": "In the room",
+   "headline": "Tracking. Monitoring. Re-amping.",
+   "brand": "lower"
+  },
+  {
+   "id": "r2-foot",
+   "sec": 5,
+   "kind": "heroWide",
+   "img": [
+    58
+   ],
+   "eyebrow": "Foot switch",
+   "headline": "Hands-free punch-in"
+  },
+  {
+   "id": "r2-brand",
+   "sec": 6,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "r2-price",
+   "sec": 7,
+   "kind": "priceBeat",
+   "eyebrow": "Market Operating Price",
+   "brand": "corner",
+   "sfx": [
+    [
+     "avb-ping",
+     16,
+     0.44
+    ]
+   ]
+  },
+  {
+   "id": "r2-outro",
+   "sec": 9,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     22,
+     0.46
+    ]
+   ]
+  }
+ ]
+}

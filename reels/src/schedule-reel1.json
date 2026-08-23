@@ -1,0 +1,650 @@
+{
+ "id": "Reel1",
+ "reel": 1,
+ "title": "The Agile Hub",
+ "product": "MOTU UltraLite-mk5",
+ "outName": "motu-ultralite828-reel-1",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInSeconds": 178,
+ "durationInFrames": 5340,
+ "voSlot": "voiceover-reel1.mp3",
+ "musicSuffix": "-reel1",
+ "beats": [
+  {
+   "id": "r1-hook",
+   "sec": 8,
+   "kind": "clipHero",
+   "clip": 1,
+   "trim": 5.2,
+   "rate": 0.95,
+   "grade": "cool",
+   "eyebrow": "The Architecture of Scale",
+   "editorial": "No free input.",
+   "sub": "Again.",
+   "brand": "corner",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.15
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 0,
+   "durationInFrames": 240,
+   "fromSec": 0
+  },
+  {
+   "id": "r1-pain",
+   "sec": 7,
+   "kind": "clipSplit",
+   "clip": 2,
+   "trim": 6.4,
+   "rate": 1,
+   "grade": "cool",
+   "headline": "The monitor drops",
+   "body": "Latency does not cost you time. It costs you the take.",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 240,
+   "durationInFrames": 210,
+   "fromSec": 8
+  },
+  {
+   "id": "r1-turn",
+   "sec": 6,
+   "kind": "statement",
+   "eyebrow": "Two answers, one standard",
+   "editorial": "It was never about better.",
+   "sub": "Only about scale.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.46
+    ]
+   ],
+   "motu": true,
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 450,
+   "durationInFrames": 180,
+   "fromSec": 15
+  },
+  {
+   "id": "r1-standard",
+   "sec": 7,
+   "kind": "badgeSpec",
+   "img": [
+    57
+   ],
+   "metric": "125 dB(A)",
+   "context": "Output dynamic range",
+   "narrative": "ESS Sabre32 Ultra — ES9026PRO.",
+   "sfx": [
+    [
+     "encoder-click",
+     16,
+     0.42
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 630,
+   "durationInFrames": 210,
+   "fromSec": 21
+  },
+  {
+   "id": "r1-cuemix",
+   "sec": 6,
+   "kind": "badgeSpec",
+   "img": [
+    41
+   ],
+   "metric": "CueMix 5",
+   "context": "DSP mixing ecosystem",
+   "narrative": "EQ, dynamics, reverb and loopback — on board.",
+   "accent": "signal",
+   "brand": "corner",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 840,
+   "durationInFrames": 180,
+   "fromSec": 28
+  },
+  {
+   "id": "r1-preamp",
+   "sec": 7,
+   "kind": "gainSwell",
+   "eyebrow": "Redesigned preamplifiers",
+   "headline": "+74 dB",
+   "sub": "−129 dBu EIN, A-weighted.",
+   "sfx": [
+    [
+     "xlr-lock",
+     16,
+     0.48
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 1020,
+   "durationInFrames": 210,
+   "fromSec": 34
+  },
+  {
+   "id": "r1-intro",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    20
+   ],
+   "fx": 0.45,
+   "fy": 0.55,
+   "eyebrow": "MOTU UltraLite-mk5",
+   "headline": "The Agile Hub",
+   "brand": "lower",
+   "sfx": [
+    [
+     "encoder-click",
+     18,
+     0.4
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 1230,
+   "durationInFrames": 180,
+   "fromSec": 41
+  },
+  {
+   "id": "r1-density",
+   "sec": 8,
+   "kind": "ioMatrix",
+   "ins": 18,
+   "outs": 22,
+   "eyebrow": "Form factor vs I/O density",
+   "headline": "40 channels",
+   "sub": "18 in, 22 out — in a half-rack chassis.",
+   "sfx": [
+    [
+     "data-stream",
+     0,
+     0.14
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 1410,
+   "durationInFrames": 240,
+   "fromSec": 47
+  },
+  {
+   "id": "r1-front",
+   "sec": 7,
+   "kind": "portSweep",
+   "img": [
+    16
+   ],
+   "zoom": 2.4,
+   "eyebrow": "Front panel",
+   "headline": "Two combo preamps",
+   "brand": "corner",
+   "sfx": [
+    [
+     "encoder-click",
+     14,
+     0.44
+    ],
+    [
+     "encoder-click",
+     34,
+     0.36
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 1650,
+   "durationInFrames": 210,
+   "fromSec": 55
+  },
+  {
+   "id": "r1-oled",
+   "sec": 6,
+   "kind": "heroMacro",
+   "img": [
+    4
+   ],
+   "fx": 0.72,
+   "fy": 0.5,
+   "eyebrow": "White OLED",
+   "headline": "Every channel, at a glance",
+   "sfx": [
+    [
+     "avb-ping",
+     16,
+     0.4
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 1860,
+   "durationInFrames": 180,
+   "fromSec": 62
+  },
+  {
+   "id": "r1-rear",
+   "sec": 7,
+   "kind": "portSweep",
+   "img": [
+    18
+   ],
+   "zoom": 2.6,
+   "eyebrow": "Rear panel",
+   "headline": "Ten TRS outs. All DC-coupled.",
+   "brand": "lower",
+   "sfx": [
+    [
+     "trs-seat",
+     16,
+     0.46
+    ],
+    [
+     "usbc-seat",
+     36,
+     0.42
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2040,
+   "durationInFrames": 210,
+   "fromSec": 68
+  },
+  {
+   "id": "r1-renders",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    6,
+    12,
+    14
+   ],
+   "cols": 1,
+   "eyebrow": "Front and rear",
+   "headline": "The whole unit, both ways",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2250,
+   "durationInFrames": 180,
+   "fromSec": 75
+  },
+  {
+   "id": "r1-desk",
+   "sec": 6,
+   "kind": "heroReveal",
+   "img": [
+    1
+   ],
+   "fx": 0.5,
+   "fy": 0.6,
+   "eyebrow": "On the desk",
+   "headline": "Everything patched",
+   "brand": "corner",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2430,
+   "durationInFrames": 180,
+   "fromSec": 81
+  },
+  {
+   "id": "r1-stack",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    3,
+    5
+   ],
+   "cols": 1,
+   "eyebrow": "Stage and stack",
+   "headline": "Rugged enough to travel",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2610,
+   "durationInFrames": 150,
+   "fromSec": 87
+  },
+  {
+   "id": "r1-mobile",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    7,
+    22
+   ],
+   "cols": 1,
+   "eyebrow": "Desktop and iOS",
+   "headline": "CueMix 5, wherever you work",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.42
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2760,
+   "durationInFrames": 180,
+   "fromSec": 92
+  },
+  {
+   "id": "r1-studio",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    9,
+    21
+   ],
+   "cols": 1,
+   "eyebrow": "In the room",
+   "headline": "Small enough for the shelf",
+   "brand": "lower",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 2940,
+   "durationInFrames": 180,
+   "fromSec": 98
+  },
+  {
+   "id": "r1-system",
+   "sec": 6,
+   "kind": "heroWide",
+   "img": [
+    23
+   ],
+   "eyebrow": "Everything, connected",
+   "headline": "One hub for the room",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 3120,
+   "durationInFrames": 180,
+   "fromSec": 104
+  },
+  {
+   "id": "r1-cuemix2",
+   "sec": 7,
+   "kind": "montage",
+   "img": [
+    2,
+    11,
+    13,
+    15,
+    17
+   ],
+   "cols": 2,
+   "eyebrow": "CueMix 5",
+   "headline": "Zero-latency monitor mixes",
+   "brand": "corner",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 3300,
+   "durationInFrames": 210,
+   "fromSec": 110
+  },
+  {
+   "id": "r1-latency",
+   "sec": 6,
+   "kind": "metricHero",
+   "img": [
+    19
+   ],
+   "metric": "2.4 ms",
+   "context": "Round-trip latency",
+   "narrative": "At 96 kHz, 32-sample buffer.",
+   "sfx": [
+    [
+     "usbc-seat",
+     14,
+     0.44
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 3510,
+   "durationInFrames": 180,
+   "fromSec": 117
+  },
+  {
+   "id": "r1-modular",
+   "sec": 6,
+   "kind": "clipSplit",
+   "clip": 8,
+   "trim": 0.6,
+   "rate": 0.95,
+   "grade": "warm",
+   "headline": "Leave it patched",
+   "body": "DC-coupled outputs drive control voltage straight from the DAW.",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 3690,
+   "durationInFrames": 180,
+   "fromSec": 123
+  },
+  {
+   "id": "r1-dc",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    44,
+    64
+   ],
+   "cols": 1,
+   "eyebrow": "DC-coupled outputs",
+   "headline": "Straight into the modular",
+   "brand": "lower",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 3870,
+   "durationInFrames": 180,
+   "fromSec": 129
+  },
+  {
+   "id": "r1-rack",
+   "sec": 5,
+   "kind": "montage",
+   "img": [
+    8,
+    10
+   ],
+   "cols": 1,
+   "eyebrow": "Optional rack ears",
+   "headline": "Desktop today. Rack tomorrow.",
+   "sfx": [
+    [
+     "encoder-click",
+     12,
+     0.36
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 4050,
+   "durationInFrames": 150,
+   "fromSec": 135
+  },
+  {
+   "id": "r1-daw",
+   "sec": 6,
+   "kind": "heroWide",
+   "img": [
+    45
+   ],
+   "eyebrow": "Straight into the session",
+   "headline": "macOS. Windows. iOS.",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 4200,
+   "durationInFrames": 180,
+   "fromSec": 140
+  },
+  {
+   "id": "r1-bundles",
+   "sec": 6,
+   "kind": "montage",
+   "img": [
+    38,
+    43,
+    61,
+    62,
+    67
+   ],
+   "cols": 2,
+   "eyebrow": "Included software",
+   "headline": "Ready on day one",
+   "brand": "corner",
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 4380,
+   "durationInFrames": 180,
+   "fromSec": 146
+  },
+  {
+   "id": "r1-brand",
+   "sec": 6,
+   "kind": "brandBeat",
+   "brand": "beat",
+   "motu": true,
+   "sfx": [
+    [
+     "avb-ping",
+     14,
+     0.42
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 4560,
+   "durationInFrames": 180,
+   "fromSec": 152
+  },
+  {
+   "id": "r1-price",
+   "sec": 9,
+   "kind": "priceBeat",
+   "eyebrow": "Market Operating Price",
+   "brand": "corner",
+   "sfx": [
+    [
+     "avb-ping",
+     18,
+     0.44
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 4740,
+   "durationInFrames": 270,
+   "fromSec": 158
+  },
+  {
+   "id": "r1-outro",
+   "sec": 11,
+   "kind": "outro",
+   "motu": true,
+   "socials": true,
+   "sfx": [
+    [
+     "avb-ping",
+     24,
+     0.46
+    ]
+   ],
+   "chapter": 1,
+   "chapterId": "reel1",
+   "chapterTitle": "The Agile Hub",
+   "from": 5010,
+   "durationInFrames": 330,
+   "fromSec": 167
+  }
+ ],
+ "music": [
+  {
+   "chapter": 1,
+   "track": "Mindscape",
+   "fromSec": 0,
+   "toSec": 8,
+   "srcOffsetSec": 0,
+   "stems": {
+    "BASS": 0.46,
+    "INSTRUMENTS": 0.5,
+    "MELODY": 0.38
+   }
+  },
+  {
+   "chapter": 2,
+   "track": "ETERNITY",
+   "fromSec": 8,
+   "toSec": 28,
+   "srcOffsetSec": 30,
+   "stems": {
+    "BASS": 0.55,
+    "INSTRUMENTS": 0.42
+   }
+  },
+  {
+   "chapter": 3,
+   "track": "GIFTED",
+   "fromSec": 28,
+   "toSec": 150,
+   "srcOffsetSec": 0,
+   "stems": {
+    "BASS": 0.52,
+    "DRUMS": 0.34,
+    "INSTRUMENTS": 0.48
+   }
+  },
+  {
+   "chapter": 4,
+   "track": "Mindscape",
+   "fromSec": 150,
+   "toSec": 178,
+   "srcOffsetSec": 96,
+   "stems": {
+    "BASS": 0.48,
+    "INSTRUMENTS": 0.5,
+    "MELODY": 0.4
+   }
+  }
+ ]
+}

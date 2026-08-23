@@ -146,3 +146,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ── MOTU UltraLite-mk5 / 828 deliverables (longform/ and reels/) ────────────
+# Dependencies and render scratch are not committed; the finished MP4s,
+# thumbnails and standalone audio deliverables in out/ ARE.
+longform/node_modules/
+reels/node_modules/
+longform/out/qa/
+longform/out/qa-resolve/
+reels/out/qa-reel1/
+reels/out/qa-reel2/
+reels/out/qa-resolve-reel1/
+reels/out/qa-resolve-reel2/
+**/out/render.log
+longform/build/
+reels/build/

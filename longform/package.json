@@ -1,0 +1,35 @@
+{
+  "name": "motu-ultralite828-longform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MOTU UltraLite-mk5 & 828 \u2014 598s light-background landscape long-form video (Remotion). Shivansh Electronics, Authorized Distributor of MOTU (Mark of the Unicorn, USA) Interfaces for East and North East India.",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "bundle": "remotion bundle",
+    "audio": "node ../tools/make-audio.mjs longform",
+    "coverage": "node scripts/coverage.mjs",
+    "branding": "node scripts/branding.mjs",
+    "qa": "node scripts/qa-stills.mjs",
+    "verify": "npm run typecheck && npm run coverage && npm run branding",
+    "render": "remotion render LongForm out/motu-ultralite828-longform.mp4",
+    "render:thumb": "remotion still Thumbnail out/thumbnail-motu-ultralite828-longform.png",
+    "zip": "node scripts/make-zip.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.515",
+    "@remotion/cli": "4.0.515",
+    "@remotion/google-fonts": "4.0.515",
+    "@remotion/media-utils": "4.0.515",
+    "@remotion/renderer": "4.0.515",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.515"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.6.3"
+  }
+}
