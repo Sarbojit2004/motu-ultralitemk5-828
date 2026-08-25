@@ -1,145 +1,168 @@
 # Voiceover script — MOTU UltraLite-mk5 & MOTU 828
-## Reel 1 · "The Agile Hub" · 178 seconds · 1080×1920 · 30 fps
+## Reel 1 · "The Agile Hub" · 178 seconds / 02:58 · 1080×1920 · 30 fps
 
 **Language:** English only.
 
-**Tone (Gemini brief Stage 9):** the same blend used across all three
-deliverables so the set reads as one family — **The Technical Authority** as the
-spine, with **The Operational Pragmatist** carrying the opening problem beats.
-*The Creative Catalyst* is deliberately not used.
+**Revision:** rewritten at the user's request into the MOTU AVB Series
+Ecosystem's paragraph-block format and narrated pace (~166 wpm reference).
+Standalone — this reel does not assume the viewer has seen Reel 2 or the
+long-form; it opens on its own hook and closes on its own complete CTA with
+both Market Operating Prices and the website.
 
-**Standalone:** this reel does not assume the viewer has seen the other reel or
-the long-form. It opens on its own hook, establishes the shared standard in its
-own terms, and closes on its own complete call to action with both Market
-Operating Prices and the website.
+**Tone:** same family as the long-form — Technical Authority as the spine,
+Operational Pragmatist carrying the opening hook.
 
-**Pace:** noticeably faster and more hook-driven than the long-form, matching the
-cut — 27 beats across 178 s, averaging 6.6 s each.
+**Delivery:** paced, articulate. Numbers read in full — rupee amounts spelled
+out using Indian numbering. The 1 marked hold (`r1-brand`) stays silent — the
+branding beat plays clean.
 
-**Sync:** every timestamp is the true in-point of its beat, generated from the
-same `schedule-reel1.json` that renders the reel, then re-verified against the
-finished render.
+**Sync:** every `[start–end]` is a true beat boundary from
+`reels/src/schedule-reel1.json`; block durations sum exactly to each beat's `sec`.
 
-**No burned-in captions.** A silent voiceover slot of exactly 178.000 s ships at
-`public/vo/voiceover-reel1.mp3`.
+**No burned-in captions.** A silent voiceover slot of exactly 178.000 s ships
+at `public/vo/voiceover-reel1.mp3`.
 
 ---
+**[00:00–00:08]** (8s)
+You sit back down to record, and there is genuinely no free input left. Again — for the 3rd time this week.
 
-**00:00** — You sit down to record, and there is no free input. Again.
+> `r1-hook`
 
-> `r1-hook` · 8s · 12 words · ~90 wpm
+**[00:08–00:15]** (7s)
+Or the monitor mix drops out mid-take, again. Latency does not cost you time — it costs you the actual performance.
 
-**00:08** — Or the monitor mix drops out mid-take. Latency does not cost you time. It costs you the performance.
+> `r1-pain`
 
-> `r1-pain` · 7s · 18 words · ~154 wpm
+**[00:15–00:21]** (6s)
+So it was genuinely never about which one is better. Only ever about the right scale.
 
-**00:15** — So it was never about which one is better. Only about scale.
+> `r1-turn`
 
-> `r1-turn` · 6s · 12 words · ~120 wpm
+**[00:21–00:28]** (7s)
+Both MOTU interfaces run identical ESS Sabre32 Ultra conversion, for a verified 125 decibels of measured dynamic range.
 
-**00:21** — Both MOTU interfaces run ESS Sabre32 Ultra conversion, for a verified one hundred and twenty-five decibels of dynamic range.
+> `r1-standard`
 
-> `r1-standard` · 7s · 19 words · ~163 wpm
+**[00:28–00:34]** (6s)
+Both run CueMix 5 too — full EQ, gate, compression, reverb, and loopback, computed right on the interface itself.
 
-**00:28** — Both run CueMix 5 — equalisation, dynamics, reverb and loopback, computed on board.
+> `r1-cuemix`
 
-> `r1-cuemix` · 6s · 13 words · ~130 wpm
+**[00:34–00:41]** (7s)
+74 decibels of genuinely clean gain, in precise 1 decibel steps, at minus 129 dBu equivalent input noise.
 
-**00:34** — And both carry the same redesigned preamplifier: seventy-four decibels of gain, at minus one hundred and twenty-nine dBu.
+> `r1-preamp`
 
-> `r1-preamp` · 7s · 18 words · ~154 wpm
+**[00:41–00:47]** (6s)
+The UltraLite-mk5. The Agile Hub — built specifically for the desk, the backpack, and the stage.
 
-**00:41** — This is the UltraLite-mk5. The agile hub.
+> `r1-intro`
 
-> `r1-intro` · 6s · 7 words · ~70 wpm
+**[00:47–00:55]** (8s)
+40 simultaneous channels — 18 in, 22 out — all packed into a half-rack chassis light enough to actually carry anywhere.
 
-**00:47** — Forty simultaneous channels — eighteen in, twenty-two out — inside a half-rack steel chassis.
+> `r1-density`
 
-> `r1-density` · 8s · 14 words · ~105 wpm
+**[00:55–01:02]** (7s)
+2 combo inputs, taking microphone, line, or instrument level, each with independent gain and 48 volt phantom power.
 
-**00:55** — Two combo inputs take microphone, line or instrument level, each with its own gain, pad and phantom power.
+> `r1-front`
 
-> `r1-front` · 7s · 18 words · ~154 wpm
+**[01:02–01:08]** (6s)
+A high-contrast white OLED display shows every single channel clearly, at a glance, with no menu diving.
 
-**01:02** — A high-contrast white OLED meters every channel at a glance.
+> `r1-oled`
 
-> `r1-oled` · 6s · 10 words · ~100 wpm
+**[01:08–01:15]** (7s)
+10 quarter-inch TRS outputs on the rear, and every 1 of them is fully DC-coupled to your gear.
 
-**01:08** — Ten quarter-inch outputs, and every one of them DC-coupled — control voltage straight from your DAW.
+> `r1-rear`
 
-> `r1-rear` · 7s · 16 words · ~137 wpm
+**[01:15–01:21]** (6s)
+A full ADAT optical bank, S/PDIF, and complete MIDI I/O, on a chassis small enough to carry.
 
-**01:15** — An ADAT optical bank, S/PDIF and full MIDI, on a chassis you can carry.
+> `r1-renders`
 
-> `r1-renders` · 6s · 14 words · ~140 wpm
+**[01:21–01:27]** (6s)
+Everything stays fully patched, permanently. Nothing sits in the way of your very next idea.
 
-**01:21** — Which means the desk stays patched, and nothing gets in the way.
+> `r1-desk`
 
-> `r1-desk` · 6s · 12 words · ~120 wpm
+**[01:27–01:32]** (5s)
+Genuinely rugged enough to travel with, night after night, gig after demanding gig.
 
-**01:27** — And it is rugged enough to travel with, night after night.
+> `r1-stack`
 
-> `r1-stack` · 5s · 11 words · ~132 wpm
+**[01:32–01:38]** (6s)
+CueMix 5 runs on iOS too, so the entire mixer genuinely travels wherever you do.
 
-**01:32** — CueMix 5 runs on the desktop and on iOS, so the mixer is wherever you are working.
+> `r1-mobile`
 
-> `r1-mobile` · 6s · 17 words · ~170 wpm
+**[01:38–01:44]** (6s)
+Small enough to genuinely fit on the shelf. Dense enough for a full tracking session, every time.
 
-**01:38** — Small enough for the shelf. Dense enough for the room.
+> `r1-studio`
 
-> `r1-studio` · 6s · 10 words · ~100 wpm
+**[01:44–01:50]** (6s)
+1 hub for microphones, synths, outboard gear, monitors, and headphones — all live in the room at once.
 
-**01:44** — Microphones, synthesizers, outboard gear and monitors — all live at the same time.
+> `r1-system`
 
-> `r1-system` · 6s · 13 words · ~130 wpm
+**[01:50–01:57]** (7s)
+The full DSP runs entirely on board — zero-latency monitor mixes, without ever once touching your host CPU.
 
-**01:50** — Zero-latency monitor mixes, computed on the interface rather than on your host CPU.
+> `r1-cuemix2`
 
-> `r1-cuemix2` · 7s · 13 words · ~111 wpm
+**[01:57–02:03]** (6s)
+2 point 4 milliseconds, round-trip, measured cleanly at 96 kilohertz on a 32 sample buffer.
 
-**01:57** — Two point four milliseconds round-trip, at ninety-six kilohertz.
+> `r1-latency`
 
-> `r1-latency` · 6s · 8 words · ~80 wpm
+**[02:03–02:09]** (6s)
+Leave it fully patched. The synthesizer stays connected, session after session, without a single re-cable.
 
-**02:03** — So the rig stays patched, and the outputs drive control voltage directly.
+> `r1-modular`
 
-> `r1-modular` · 6s · 12 words · ~120 wpm
+**[02:09–02:15]** (6s)
+Every single output is DC-coupled, straight into a modular rig, with no blocking capacitor in the way.
 
-**02:09** — Straight into the modular.
+> `r1-dc`
 
-> `r1-dc` · 6s · 4 words · ~40 wpm
+**[02:15–02:20]** (5s)
+Desktop today. A full 19 inch rack unit tomorrow, with optional rack ears.
 
-**02:15** — Desktop today. Rack tomorrow.
+> `r1-rack`
 
-> `r1-rack` · 5s · 4 words · ~48 wpm
+**[02:20–02:26]** (6s)
+macOS, Windows, and iOS, all fully natively, with no extra drivers standing in the way.
 
-**02:20** — macOS, Windows and iOS, natively.
+> `r1-daw`
 
-> `r1-daw` · 6s · 5 words · ~50 wpm
+**[02:26–02:32]** (6s)
+And it genuinely ships ready to record, right out of the box, on day 1.
 
-**02:26** — And it ships ready to record on day one.
+> `r1-bundles`
 
-> `r1-bundles` · 6s · 9 words · ~90 wpm
+**[02:32–02:38]** (6s)
+*(hold — visual only; the branding beat plays clean)*
 
-**02:32** — *(hold — no narration; the branding beat plays clean)*
+> `r1-brand`
 
-> `r1-brand` · 6s
+**[02:38–02:47]** (9s)
+The MOTU UltraLite-mk5 is priced at eighty-one thousand nine hundred rupees per unit. The MOTU 828 is one lakh twenty-eight thousand rupees per unit. Both, inclusive of GST.
 
-**02:38** — The MOTU UltraLite-mk5 is eighty-one thousand nine hundred rupees per unit, inclusive of GST. The MOTU 828 is one lakh twenty-eight thousand.
+> `r1-price`
 
-> `r1-price` · 9s · 22 words · ~147 wpm
+**[02:47–02:58]** (11s)
+The best price is always found at www.shivanshelectronics.in. Shivansh Electronics — the Authorized Distributor of MOTU, Mark of the Unicorn USA, for East and North East India.
 
-**02:47** — The best price is at www.shivanshelectronics.in. Shivansh Electronics — Authorized Distributor of MOTU for East and North East India.
-
-> `r1-outro` · 11s · 19 words · ~104 wpm
-
+> `r1-outro`
 ---
 
 ## Read summary
 
-- Total words: **330**
-- Runtime: **178s** · **5340 frames**
-- Average across the whole reel: **~111 wpm**
-- Average across the **narrated** beats: **~115 wpm**
-- Pricing and the website land as an explicit timestamped moment at **02:38** and again at **02:47**.
+- Total narrated words: **462**
+- Narrated seconds: **172s** of **178s** total runtime (1 silent hold, 6s)
+- Overall narrated pace: **~161 wpm** — matched to the AVB Series Ecosystem reference pace (~166 wpm).
+- Pricing lands at **02:38**, the website and Shivansh Electronics distributorship at **02:47**.
 - No comparison to any other audio-interface brand appears anywhere in this script.
