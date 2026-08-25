@@ -35,9 +35,10 @@ for (const t of TARGETS) {
   const md = fs.readFileSync(path.join(ROOT, t.script), "utf8");
   const byId = new Map(S.beats.map((b) => [b.id, b]));
 
-  // each entry is "**MM:SS** — line" followed by "> `beat-id` · Ns"
-  const re = /\*\*(\d{2}):(\d{2})\*\*[^\n]*\n\n> `([a-z0-9-]+)` · (\d+)s/g;
-  const rows = [...md.matchAll(re)];
+  // each entry is "**[MM:SS–MM:SS]** (Ns)" then 1 paragraph (or a hold marker)
+  // then a blank line and "> `beat-id`"
+  const re = /\*\*\[(\d{2}):(\d{2})–\d{2}:\d{2}\]\*\* \((\d+)s\)\n[^\n]*\n\n> `([a-z0-9-]+)`/g;
+  const rows = [...md.matchAll(re)].map(([, mm, ss, sec, id]) => [, mm, ss, id, sec]);
 
   let bad = 0;
   for (const [, mm, ss, id, sec] of rows) {
