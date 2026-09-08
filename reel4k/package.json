@@ -12,6 +12,7 @@
     "finalize": "bash tools/finalize.sh",
     "coverage": "python3 tools/coverage.py",
     "check:motion": "python3 tools/motion_plan.py && node tools/motion_frames.mjs out/motionplan.json out/motion && python3 tools/motion_check.py out/motionplan.json",
-    "check:colour": "node tools/colour_check.mjs e828_21j ul_03j e828_13p ul_13j e828_30j && python3 tools/colour_check.py"
+    "check:colour": "node tools/colour_check.mjs e828_21j ul_03j e828_13p ul_13j e828_30j && python3 tools/colour_check.py",
+    "check:sync": "python3 tools/sync_check.py out/motu-camera-motion-reel.mp4"
   }
 }

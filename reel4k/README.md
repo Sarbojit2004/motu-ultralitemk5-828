@@ -238,6 +238,7 @@ python3 tools/coverage.py       # writes ASSET_COVERAGE.md, fails if any image i
 node    tools/motion_frames.mjs # renders 3 frames inside every shot
 python3 tools/motion_check.py   # the Section 3 self-check, automated
 node    tools/colour_check.mjs && python3 tools/colour_check.py
+python3 tools/sync_check.py     # cut placement, measured from the delivered film
 ```
 
 **Coverage** — 69 / 69 distinct raw images placed. The count came from the
@@ -258,6 +259,25 @@ PASS - all 58 shots show movement in type, product and backdrop.
 The measured travel also shows the parallax is real rather than nominal —
 `ul-gain`, for instance, reports 174 px of type travel, 87 px of product travel
 and 32 px of backdrop travel, tracking the 1.00 / 0.60 / 0.20 design.
+
+**Sync** — `tools/sync_check.py` decodes the audio back out of the rendered
+master, re-detects onsets in it from scratch, and measures where the cuts fell:
+
+```
+1. cuts against the measured 134.02 BPM grid
+   worst offset             : 16.3 ms   (rounding to the nearest frame costs at most 16.7 ms)
+   all cuts within 1 frame  : True
+2. coincidence with a detected transient
+   grid beats on an onset   : 64/203  (32%)   <- baseline
+   cuts on an onset         : 21/58   (36%)
+3. onset energy at the cut points
+   cuts sit on 1.58x the reel's average onset energy
+```
+
+Every cut is on the grid to within frame quantisation. The second figure is the
+honest one to read: an onset detector misses quiet beats, so only 32 % of the
+track's own beats carry a detectable transient — the cuts land on one *more*
+often than the average beat does, and on 1.58x the reel's average onset energy.
 
 ---
 
