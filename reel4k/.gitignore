@@ -1,0 +1,6 @@
+node_modules/
+# Renders and review artefacts are reproducible and far too large for git,
+# except the delivered 4K master, which is committed so the client can pull it.
+out/*
+!out/.gitkeep
+!out/motu-camera-motion-reel-4k.mp4

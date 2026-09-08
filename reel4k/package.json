@@ -1,0 +1,18 @@
+{
+  "name": "motu-camera-motion-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOTU UltraLite-mk5 & 828 continuous-camera motion-graphics reel (2160x3840, 90.7s). Independent of the repository's separate 178-second project; shares the parent node_modules.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MotuCameraReel out/motu-camera-motion-reel.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p",
+    "still": "remotion still src/index.ts MotuCameraReel",
+    "typecheck": "tsc --noEmit",
+    "preview": "remotion render src/index.ts MotuCameraReel out/motu-camera-motion-reel-preview.mp4 --scale=0.25 --codec=h264 --crf=24 --pixel-format=yuv420p",
+    "finalize": "bash tools/finalize.sh",
+    "coverage": "python3 tools/coverage.py",
+    "check:motion": "python3 tools/motion_plan.py && node tools/motion_frames.mjs out/motionplan.json out/motion && python3 tools/motion_check.py out/motionplan.json",
+    "check:colour": "node tools/colour_check.mjs e828_21j ul_03j e828_13p ul_13j e828_30j && python3 tools/colour_check.py",
+    "check:sync": "python3 tools/sync_check.py out/motu-camera-motion-reel.mp4"
+  }
+}
