@@ -1,0 +1,4 @@
+node_modules/
+# Renders and review artefacts are reproducible and far too large for git.
+out/*
+!out/.gitkeep
