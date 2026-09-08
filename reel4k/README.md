@@ -6,7 +6,7 @@ root.
 
 | | |
 |---|---|
-| Output | `out/motu-camera-motion-reel.mp4` |
+| Output | **`out/motu-camera-motion-reel-4k.mp4`** (84 MB, committed) |
 | Resolution | **2160 × 3840** (9:16 portrait, true 4K) |
 | Duration | **2721 frames @ 30fps = 90.700 s** |
 | Shots | 58, every cut on a measured transient |
@@ -20,6 +20,18 @@ npm run preview             # 540x960 review cut (~6 min)
 npm run render              # 2160x3840 master (~25 min)
 npm run finalize            # clip the container to the exact 90.700 s runtime
 ```
+
+### Outputs
+
+| file | size | notes |
+|---|---|---|
+| `out/motu-camera-motion-reel-4k.mp4` | 84 MB | **the deliverable** — 4K, 7.5 Mbps, committed to the branch (40.3 dB PSNR against the archival master) |
+| `out/motu-camera-motion-reel.mp4` | 663 MB | archival master straight out of Remotion at CRF 17, 61 Mbps — not committed |
+| `out/motu-camera-motion-reel-preview.mp4` | 18 MB | 540×960 review cut |
+
+`npm run render` writes the archival master; the committed 4K is that master
+re-encoded at CRF 26, which is visually indistinguishable at this resolution and
+fits inside GitHub's 100 MB per-file limit.
 
 ---
 
