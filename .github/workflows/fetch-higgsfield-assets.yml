@@ -1,0 +1,63 @@
+# Fetches generated Higgsfield media (public CDN result URLs) into the repo.
+#
+# The build container that authors this project cannot reach Higgsfield's
+# result CDN directly, but the generated stills and B-roll must be committed
+# alongside the Remotion project that renders them anyway. So a manifest of
+# {url, dest} pairs is committed, this workflow downloads each file on a GitHub
+# runner, and commits the results back to the same branch.
+name: fetch-higgsfield-assets
+
+on:
+  push:
+    paths:
+      - "ultralite-828-reel/higgsfield-manifest.json"
+      - ".github/workflows/fetch-higgsfield-assets.yml"
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: "Path to a JSON manifest: [{\"url\": \"https://...\", \"dest\": \"path/in/repo\"}]"
+        required: false
+        default: "ultralite-828-reel/higgsfield-manifest.json"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Download every manifest entry
+        shell: bash
+        run: |
+          set -euo pipefail
+          MANIFEST="${{ github.event.inputs.manifest || 'ultralite-828-reel/higgsfield-manifest.json' }}"
+          test -f "$MANIFEST"
+          n=$(jq length "$MANIFEST")
+          echo "$n entries"
+          for i in $(seq 0 $((n-1))); do
+            url=$(jq -r ".[$i].url" "$MANIFEST")
+            dest=$(jq -r ".[$i].dest" "$MANIFEST")
+            mkdir -p "$(dirname "$dest")"
+            if [ -s "$dest" ] && [ "$(jq -r ".[$i].overwrite // false" "$MANIFEST")" != "true" ]; then
+              echo "skip (exists): $dest"; continue
+            fi
+            echo "GET $url -> $dest"
+            curl -fsSL --retry 4 --retry-delay 3 -o "$dest" "$url"
+            ls -l "$dest"
+          done
+      - name: Commit and push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "assets: fetch Higgsfield generations listed in manifest"
+          # The branch may have moved on while the downloads ran; rebase the
+          # single asset commit onto it before pushing.
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
