@@ -26,7 +26,9 @@ export const Thumbnail: React.FC<{ canvas: Canvas }> = ({ canvas }) => {
       ) : null}
       <AbsoluteFill style={{ background: canvas.portrait ? "linear-gradient(180deg, rgba(5,5,7,0.55) 0%, rgba(5,5,7,0.05) 35%, rgba(5,5,7,0.25) 60%, rgba(5,5,7,0.92) 100%)" : "linear-gradient(90deg, rgba(5,5,7,0.88) 0%, rgba(5,5,7,0.5) 45%, rgba(5,5,7,0.05) 75%)" }} />
       <div style={{ position: "absolute", left: canvas.safe.left, width: canvas.portrait ? sw : sw * 0.6, bottom: canvas.portrait ? canvas.safe.bottom : canvas.safe.bottom + 40 }}>
-        <div style={{ fontSize: 44 * S, letterSpacing: 9 * S, color: ACCENT.shared.glow, textShadow: HARD, marginBottom: 40 * S }}>ULTRALITE-MK5 · 828</div>
+        {/* White, not the shared accent: this line lands on the 828's lit front
+            panel, where a mid-blue at 44 px has nothing to hold on to. */}
+        <div style={{ fontSize: 46 * S, letterSpacing: 9 * S, color: INK.onDark, textShadow: HARD, marginBottom: 40 * S }}>ULTRALITE-MK5 · 828</div>
         <div style={{ fontSize: TYPE.before.size * S, letterSpacing: TYPE.before.track * S, color: INK.onDark, textShadow: HARD, lineHeight: 1.08 }}>ONE STANDARD.</div>
         <div style={{ fontFamily: FONT.script, fontSize: 380 * S, color: ACCENT.pul.glow, lineHeight: 0.98, padding: `${16 * S}px ${30 * S}px ${26 * S}px 0`, marginLeft: -8, transform: "rotate(-1.6deg)", textShadow: `0 8px 16px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.85), 0 0 60px ${ACCENT.pul.glow}55` }}>
           two rooms
