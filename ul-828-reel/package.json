@@ -1,0 +1,33 @@
+{
+  "name": "motu-avb-series-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOTU AVB Series (16A / 848 / 10pre / AVB Switch) — 90 s 4K vertical reel + 5 min 4K landscape film (Remotion + Higgsfield). Shivansh Electronics, exclusive distributor of MOTU (Mark of the Unicorn, USA) for East & North East India.",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/prep-assets.mjs",
+    "audio": "python3 scripts/gen_audio.py",
+    "audio:deliver": "node --experimental-strip-types scripts/sfx-plan.mjs && python3 scripts/deliver-audio.py",
+    "script": "node --experimental-strip-types scripts/build-script.mjs",
+    "render:reel": "remotion render Reel out/motu-avb-reel-4k.mp4 --concurrency=2",
+    "render:film": "remotion render Film out/motu-avb-film-4k.mp4 --concurrency=2",
+    "preview:reel": "remotion render Reel out/preview-reel-480p.mp4 --scale=0.2222222 --concurrency=2",
+    "preview:film": "remotion render Film out/preview-film-480p.mp4 --scale=0.2222222 --concurrency=2",
+    "thumb:reel": "remotion still ReelThumb out/motu-avb-reel-thumbnail.png",
+    "thumb:film": "remotion still FilmThumb out/motu-avb-film-thumbnail.png"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.497",
+    "@remotion/cli": "4.0.497",
+    "@remotion/renderer": "4.0.497",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.497"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}

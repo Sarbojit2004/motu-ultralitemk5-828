@@ -1,0 +1,13 @@
+node_modules/
+out/qa/
+out/*.log
+out/preview-*.mp4
+public/images/
+public/audio/*.wav
+!public/audio/vo-reel.wav
+scripts/_timeline.json
+# 4K masters exceed GitHub's per-file limit; they ship as stream-copied parts in out/parts/
+out/motu-ul-828-reel-4k.mp4
+# 512 px wash plates derived from the stills by scripts/scan-higgsfield.mjs — regenerable
+public/higgsfield/bg/
+!out/preview-reel-480p.mp4
