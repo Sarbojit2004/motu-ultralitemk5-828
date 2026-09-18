@@ -19,8 +19,13 @@ by hand anywhere in the render path.
 
 **Shivansh Electronics is the authorized distributor of MOTU (Mark of the
 Unicorn, USA) for East and North East India.** That line, the two logos, the
-website, the 3 WhatsApp numbers and the two prices appear once, on the end
-screen, and nowhere else. No price is ever spoken.
+website and the 3 WhatsApp numbers appear once, on the end screen, and nowhere
+else.
+
+**No price appears anywhere in this reel** — not spoken, not captioned, not on
+the end screen, not on the thumbnail. There is deliberately no pricing constant
+in `src/theme.ts` to import, so a future edit cannot reintroduce one by
+accident.
 
 ---
 
@@ -93,7 +98,7 @@ cannot be mistaken for one product's evidence.
 ## The layer stack
 
 ```
-4  outro    the end screen — the only brand marks, and the only prices
+4  outro    the end screen — the only brand marks anywhere in the reel
 3  overlay  ALL typography, held at 0.64 opacity (36% transparent)
             ├ caption lockup — bottom-left, inside the safe box
             └ product tag + demonstrative + spec chips — top-left

@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACCENT, CONTACT, FONT, GROUND, INK, PRICING, type Canvas, safeW } from "../theme.ts";
+import { ACCENT, CONTACT, FONT, GROUND, INK, type Canvas, safeW } from "../theme.ts";
 import { SiteIcon, WhatsAppIcon } from "./Icons.tsx";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -80,15 +80,9 @@ export const Outro: React.FC<{ canvas: Canvas }> = ({ canvas }) => {
       {(["pul", "p828"] as const).map((k, i) => (
         <React.Fragment key={k}>
           {i ? <div style={{ width: 12, height: 12, borderRadius: 6, background: "rgba(255,246,233,0.35)" }} /> : null}
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: S(12) }}>
-            <div style={{ fontSize: S(72), letterSpacing: 6, color: ACCENT[k].glow, textShadow: "0 6px 14px rgba(0,0,0,0.9)", whiteSpace: "nowrap" }}>
-              {ACCENT[k].short}
-            </div>
-            {/* The only place a price appears. It is never spoken in the
-                narration and never captioned in the body of the reel. */}
-            <div style={{ fontSize: S(46), letterSpacing: 2.4, color: INK.onDarkSoft, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums", textShadow: "0 4px 10px rgba(0,0,0,0.9)" }}>
-              {PRICING.find((x) => x.short === ACCENT[k].short)?.price}
-            </div>
+          {/* Product names only. No price appears anywhere in this reel. */}
+          <div style={{ fontSize: S(72), letterSpacing: 6, color: ACCENT[k].glow, textShadow: "0 6px 14px rgba(0,0,0,0.9)", whiteSpace: "nowrap" }}>
+            {ACCENT[k].short}
           </div>
         </React.Fragment>
       ))}

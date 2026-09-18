@@ -134,6 +134,9 @@ export const TYPE = {
 // The wording is this repository's, not the AVB repository's: here Shivansh
 // Electronics is stated as the AUTHORIZED distributor, and the region is
 // written "East and North East India".
+//
+// NO PRICE APPEARS ANYWHERE IN THIS REEL — not spoken, not captioned, not on
+// the end screen. There is deliberately no pricing constant to import.
 export const CONTACT = {
   brand: "SHIVANSH ELECTRONICS",
   city: "KOLKATA",
@@ -142,12 +145,3 @@ export const CONTACT = {
   role: "Authorized Distributor of MOTU (Mark of the Unicorn, USA)",
   region: "for East and North East India",
 } as const;
-
-// ── Pricing — outro only ─────────────────────────────────────────────────────
-// Market Operating Price per unit, inclusive of GST, as published in this
-// repository's deliverables README. Never spoken in the narration, never shown
-// anywhere but the end screen.
-export const PRICING: { short: string; price: string }[] = [
-  { short: "ULTRALITE-MK5", price: "Rs. 81,900" },
-  { short: "828", price: "Rs. 1,28,000" },
-];
