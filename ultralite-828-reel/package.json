@@ -1,0 +1,32 @@
+{
+  "name": "motu-ultralite-828-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOTU UltraLite-mk5 & MOTU 828 \u2014 90 s 4K vertical reel (Remotion + Higgsfield). Shivansh Electronics, authorized distributor of MOTU (Mark of the Unicorn, USA) for East and North East India.",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/prep-assets.mjs",
+    "audio": "python3 scripts/gen_audio.py",
+    "audio:deliver": "node --experimental-strip-types scripts/sfx-plan.mjs && python3 scripts/deliver-audio.py",
+    "script": "node --experimental-strip-types scripts/build-script.mjs",
+    "coverage": "node --experimental-strip-types scripts/coverage.mjs",
+    "validate": "node --experimental-strip-types scripts/validate-plan.mjs",
+    "render": "bash scripts/render-4k.sh",
+    "preview": "remotion render Reel out/preview-reel-480p.mp4 --scale=0.2222222 --concurrency=3",
+    "thumb": "remotion still ReelThumb out/motu-ultralite-828-reel-thumbnail.png"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.497",
+    "@remotion/cli": "4.0.497",
+    "@remotion/renderer": "4.0.497",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.497"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}

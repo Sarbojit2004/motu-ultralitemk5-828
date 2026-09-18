@@ -1,0 +1,19 @@
+node_modules/
+out/qa/
+out/*.log
+out/preview-*.mp4
+!out/preview-reel-480p.mp4
+# Re-exported from the repository-root originals by scripts/prep-assets.mjs.
+public/images/
+# Synthesised from scratch by scripts/gen_audio.py; only the silent narration
+# placeholder is committed, so the client can drop the real read in its place.
+public/audio/*.wav
+public/audio/*.mp3
+public/audio/sfx/
+!public/audio/vo-reel.wav
+# 512 px wash plates derived from the stills by scripts/scan-higgsfield.mjs.
+public/higgsfield/bg/
+# The 4K master exceeds GitHub's per-file limit; it ships as stream-copied
+# parts in out/parts/ (see out/parts/JOIN.md).
+out/motu-ultralite-828-reel-4k.mp4
+scripts/_timeline.json
