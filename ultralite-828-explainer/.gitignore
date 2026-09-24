@@ -1,0 +1,48 @@
+node_modules
+node_modules/
+
+# ── Derived, and fully regenerable ──────────────────────────────────────────
+#   npm run assets   rebuilds public/img from the product photography in the
+#                    repository root, measuring every size off the file
+#   npm run audio    rebuilds both beds, both cue layers and the silent VO slots
+# Together these are ~90 MB of output carrying no information the recipes lack.
+public/img/
+public/audio/music-bed-*.mp3
+public/audio/transitions-*.wav
+public/vo/*.wav
+
+# public/audio/sfx/ is NOT derived — it is the cue palette cut for the Soundcraft
+# Signature Plus films, and it is an input to this one. public/fonts/ is an input
+# too: a render must never depend on fetching a typeface over the network.
+# public/broll/ is where the ten deployment clips land. Both are committed.
+
+# ── Render intermediates ────────────────────────────────────────────────────
+out/*-chunks/
+out/*-silent.mp4
+
+# ── The masters ─────────────────────────────────────────────────────────────
+# GitHub rejects any file over 100 MB, and the brief asked for the uncompressed
+# original rather than a smaller version of it — so a master that does not fit
+# is CUT, never squeezed.
+#
+# Cut by BYTES, not into playable segments. ffmpeg -f segment is the obvious
+# answer and it is wrong: each segment carries its own AAC encoder priming, so
+# rejoining them does not give back the master. Measured on the 89.9 s reel,
+# the rejoin came out 1024 samples — one AAC frame, 21.3 ms — LONGER, and 99.5%
+# of its samples differed from the original, worst case -0.9 dBFS. The picture
+# rejoined bit-identically; the sound drifted 21 ms against it for the whole
+# back half of the film.
+#
+# A byte split has no opinion about codecs, priming or timestamps, so the
+# concatenation IS the original file and sha256 proves it:
+#
+#     cd out/motu-m-series-reel-parts && ./rejoin.sh
+#
+# The price is that a part does not play on its own, which is why a single-file
+# 1080p viewing copy ships beside each master — nobody should have to rejoin
+# anything just to watch the film.
+#
+#     npm run verify:parts motu-m-series-reel      proves the rejoin
+#
+out/motu-m-series-reel.mp4
+out/motu-m-series-explainer.mp4

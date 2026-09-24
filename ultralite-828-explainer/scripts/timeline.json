@@ -1,0 +1,860 @@
+{
+  "pacing": {
+    "WPM": 165,
+    "SEGMENT_GAP": 0.4,
+    "BEAT": 0.2
+  },
+  "video": {
+    "format": "video",
+    "fps": 30,
+    "width": 3840,
+    "height": 2160,
+    "speechEnd": 304.1454545454545,
+    "outroSeconds": 10,
+    "total": 314.1454545454545,
+    "words": 810,
+    "wpmEffective": 159.7919655667145,
+    "segments": [
+      {
+        "id": "bottleneck",
+        "accent": "choose",
+        "chapter": "THE BOTTLENECK",
+        "start": 0,
+        "end": 42.09090909090909,
+        "words": 113,
+        "captions": [
+          {
+            "i": 0,
+            "t": "Nobody runs out of ideas at two in the morning.",
+            "e": "ideas",
+            "start": 0,
+            "end": 3.6363636363636367,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "They run out of inputs.",
+            "e": "inputs",
+            "start": 3.6363636363636367,
+            "end": 5.654545454545455,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "The synth is patched. The drum machine is patched.",
+            "e": "patched",
+            "start": 5.654545454545455,
+            "end": 8.927272727272728,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "The preamp you bought last year is patched.",
+            "e": "last year",
+            "start": 8.927272727272728,
+            "end": 11.836363636363636,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "And the thing you want to record right now",
+            "e": "right now",
+            "start": 11.836363636363636,
+            "end": 15.10909090909091,
+            "beat": false
+          },
+          {
+            "i": 5,
+            "t": "has nowhere to go.",
+            "e": "nowhere",
+            "start": 15.10909090909091,
+            "end": 16.763636363636365,
+            "beat": true
+          },
+          {
+            "i": 6,
+            "t": "So you unplug something that was working,",
+            "e": "unplug",
+            "start": 16.763636363636365,
+            "end": 19.309090909090912,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "and you lose ten minutes,",
+            "e": "ten minutes",
+            "start": 19.309090909090912,
+            "end": 21.127272727272732,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "and you lose the thing you were about to play.",
+            "e": "about to play",
+            "start": 21.127272727272732,
+            "end": 24.96363636363637,
+            "beat": true
+          },
+          {
+            "i": 9,
+            "t": "It happens tracking a kit, when the overheads",
+            "e": "a kit",
+            "start": 24.96363636363637,
+            "end": 27.87272727272728,
+            "beat": false
+          },
+          {
+            "i": 10,
+            "t": "and the room mics and the kick all want a channel at once.",
+            "e": "at once",
+            "start": 27.87272727272728,
+            "end": 32.60000000000001,
+            "beat": false
+          },
+          {
+            "i": 11,
+            "t": "It happens re-amping, when the send and the return",
+            "e": "re-amping",
+            "start": 32.60000000000001,
+            "end": 35.87272727272728,
+            "beat": false
+          },
+          {
+            "i": 12,
+            "t": "both need somewhere to be.",
+            "e": "somewhere",
+            "start": 35.87272727272728,
+            "end": 37.8909090909091,
+            "beat": true
+          },
+          {
+            "i": 13,
+            "t": "That is not a taste problem.",
+            "e": "taste",
+            "start": 37.8909090909091,
+            "end": 40.07272727272728,
+            "beat": false
+          },
+          {
+            "i": 14,
+            "t": "It is a channel-count problem.",
+            "e": "channel-count",
+            "start": 40.07272727272728,
+            "end": 42.09090909090909,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "standard",
+        "accent": "standard",
+        "chapter": "ONE STANDARD",
+        "start": 42.49090909090909,
+        "end": 72.74545454545454,
+        "words": 81,
+        "captions": [
+          {
+            "i": 0,
+            "t": "There are two interfaces in this film.",
+            "e": "two",
+            "start": 42.49090909090909,
+            "end": 45.03636363636364,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "Before the differences, the part that is identical.",
+            "e": "identical",
+            "start": 45.03636363636364,
+            "end": 48.14545454545455,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "The same ESS Sabre32 converter tier sits in both,",
+            "e": "Sabre32",
+            "start": 48.14545454545455,
+            "end": 51.78181818181818,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "rated at one hundred and twenty-five decibels of dynamic range.",
+            "e": "dynamic range",
+            "start": 51.78181818181818,
+            "end": 55.78181818181818,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "The same preamplifier design sits in both.",
+            "e": "preamplifier",
+            "start": 55.78181818181818,
+            "end": 58.32727272727273,
+            "beat": false
+          },
+          {
+            "i": 5,
+            "t": "The same CueMix 5 mixer runs both.",
+            "e": "CueMix 5",
+            "start": 58.32727272727273,
+            "end": 61.07272727272727,
+            "beat": true
+          },
+          {
+            "i": 6,
+            "t": "So nothing in the rest of this film",
+            "e": "nothing",
+            "start": 61.07272727272727,
+            "end": 63.98181818181818,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "is a claim that one of them sounds better.",
+            "e": "sounds better",
+            "start": 63.98181818181818,
+            "end": 67.45454545454545,
+            "beat": true
+          },
+          {
+            "i": 8,
+            "t": "The part that decides how a take sounds",
+            "e": "decides",
+            "start": 67.45454545454545,
+            "end": 70.36363636363636,
+            "beat": false
+          },
+          {
+            "i": 9,
+            "t": "is the part they already share.",
+            "e": "already share",
+            "start": 70.36363636363636,
+            "end": 72.74545454545454,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "agile",
+        "accent": "agile",
+        "chapter": "THE AGILE HUB",
+        "start": 73.14545454545454,
+        "end": 115.39999999999998,
+        "words": 114,
+        "captions": [
+          {
+            "i": 0,
+            "t": "The UltraLite-mk5 is half a rack wide.",
+            "e": "half a rack",
+            "start": 73.14545454545454,
+            "end": 76.41818181818181,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "It carries forty simultaneous channels.",
+            "e": "forty",
+            "start": 76.41818181818181,
+            "end": 78.43636363636362,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "Eighteen inputs. Twenty-two outputs.",
+            "e": "Eighteen",
+            "start": 78.43636363636362,
+            "end": 80.25454545454544,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "One bank of ADAT optical for when that is not enough.",
+            "e": "ADAT",
+            "start": 80.25454545454544,
+            "end": 84.6181818181818,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "A white OLED meter you can read across a room.",
+            "e": "OLED",
+            "start": 84.6181818181818,
+            "end": 88.25454545454544,
+            "beat": false
+          },
+          {
+            "i": 5,
+            "t": "Outputs that are DC-coupled,",
+            "e": "DC-coupled",
+            "start": 88.25454545454544,
+            "end": 90.43636363636362,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "which is what a modular rig needs to take control voltage.",
+            "e": "control voltage",
+            "start": 90.43636363636362,
+            "end": 94.63636363636363,
+            "beat": true
+          },
+          {
+            "i": 7,
+            "t": "It runs over USB 2.0 on a single USB-C cable,",
+            "e": "a single cable",
+            "start": 94.63636363636363,
+            "end": 98.99999999999999,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "on a desk, in a backpack, on a stage,",
+            "e": "a backpack",
+            "start": 98.99999999999999,
+            "end": 102.27272727272725,
+            "beat": false
+          },
+          {
+            "i": 9,
+            "t": "out of a case that has been thrown in a van.",
+            "e": "thrown",
+            "start": 102.27272727272725,
+            "end": 106.47272727272725,
+            "beat": true
+          },
+          {
+            "i": 10,
+            "t": "The chassis is steel, not moulded plastic,",
+            "e": "steel",
+            "start": 106.47272727272725,
+            "end": 109.0181818181818,
+            "beat": false
+          },
+          {
+            "i": 11,
+            "t": "which is the difference between a unit that tours",
+            "e": "tours",
+            "start": 109.0181818181818,
+            "end": 112.29090909090907,
+            "beat": false
+          },
+          {
+            "i": 12,
+            "t": "and a unit you replace after a tour.",
+            "e": "replace",
+            "start": 112.29090909090907,
+            "end": 115.39999999999998,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "anchor",
+        "accent": "anchor",
+        "chapter": "THE STUDIO ANCHOR",
+        "start": 115.79999999999998,
+        "end": 164.96363636363634,
+        "words": 133,
+        "captions": [
+          {
+            "i": 0,
+            "t": "The 828 has been the middle of rooms since two thousand and one,",
+            "e": "since",
+            "start": 115.79999999999998,
+            "end": 121.25454545454544,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "when it was the first FireWire interface anybody could buy.",
+            "e": "the first",
+            "start": 121.25454545454544,
+            "end": 125.09090909090908,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "This one is a rack unit tall.",
+            "e": "a rack unit",
+            "start": 125.09090909090908,
+            "end": 127.63636363636363,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "It carries sixty simultaneous channels",
+            "e": "sixty",
+            "start": 127.63636363636363,
+            "end": 129.45454545454544,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "over USB 3.2 at five gigabits a second.",
+            "e": "five gigabits",
+            "start": 129.45454545454544,
+            "end": 133.29090909090908,
+            "beat": true
+          },
+          {
+            "i": 5,
+            "t": "Twenty-eight inputs. Thirty-two outputs.",
+            "e": "Twenty-eight",
+            "start": 133.29090909090908,
+            "end": 135.47272727272727,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "Two banks of ADAT, not one.",
+            "e": "Two banks",
+            "start": 135.47272727272727,
+            "end": 138.0181818181818,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "Send and return inserts on the microphone channels,",
+            "e": "inserts",
+            "start": 138.0181818181818,
+            "end": 141.29090909090908,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "so your compressor sits in the path",
+            "e": "your compressor",
+            "start": 141.29090909090908,
+            "end": 143.83636363636361,
+            "beat": false
+          },
+          {
+            "i": 9,
+            "t": "instead of sitting in a plug-in after the fact.",
+            "e": "after the fact",
+            "start": 143.83636363636361,
+            "end": 147.30909090909088,
+            "beat": true
+          },
+          {
+            "i": 10,
+            "t": "Word clock on BNC, for a room with more than one converter in it.",
+            "e": "Word clock",
+            "start": 147.30909090909088,
+            "end": 152.76363636363635,
+            "beat": false
+          },
+          {
+            "i": 11,
+            "t": "A talkback microphone in the front panel.",
+            "e": "talkback",
+            "start": 152.76363636363635,
+            "end": 155.67272727272726,
+            "beat": false
+          },
+          {
+            "i": 12,
+            "t": "Two monitor pairs you can switch between,",
+            "e": "Two monitor pairs",
+            "start": 155.67272727272726,
+            "end": 158.58181818181816,
+            "beat": false
+          },
+          {
+            "i": 13,
+            "t": "and two headphone mixes that are genuinely separate,",
+            "e": "genuinely separate",
+            "start": 158.58181818181816,
+            "end": 161.85454545454544,
+            "beat": false
+          },
+          {
+            "i": 14,
+            "t": "so the player and the engineer stop negotiating.",
+            "e": "stop negotiating",
+            "start": 161.85454545454544,
+            "end": 164.96363636363634,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "gain",
+        "accent": "gain",
+        "chapter": "THE GAIN",
+        "start": 165.36363636363635,
+        "end": 205.79999999999995,
+        "words": 109,
+        "captions": [
+          {
+            "i": 0,
+            "t": "Both units give you seventy-four decibels of preamplifier gain.",
+            "e": "seventy-four",
+            "start": 165.36363636363635,
+            "end": 169.36363636363635,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "Not one of them more than the other.",
+            "e": "Not one",
+            "start": 169.36363636363635,
+            "end": 172.47272727272724,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "That number matters in one specific place:",
+            "e": "one specific place",
+            "start": 172.47272727272724,
+            "end": 175.01818181818177,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "a ribbon microphone in front of something quiet.",
+            "e": "a ribbon",
+            "start": 175.01818181818177,
+            "end": 177.92727272727268,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "A voice at a metre. A room at the far end of a room.",
+            "e": "a metre",
+            "start": 177.92727272727268,
+            "end": 183.21818181818176,
+            "beat": true
+          },
+          {
+            "i": 5,
+            "t": "With seventy-four decibels you open it up",
+            "e": "open it up",
+            "start": 183.21818181818176,
+            "end": 186.12727272727267,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "and the noise floor does not come up with it,",
+            "e": "noise floor",
+            "start": 186.12727272727267,
+            "end": 189.7636363636363,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "so you are not deciding between a quiet take",
+            "e": "deciding",
+            "start": 189.7636363636363,
+            "end": 193.03636363636357,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "and a usable one.",
+            "e": "usable",
+            "start": 193.03636363636357,
+            "end": 194.69090909090903,
+            "beat": true
+          },
+          {
+            "i": 9,
+            "t": "It is also the gain you would otherwise go and buy",
+            "e": "otherwise",
+            "start": 194.69090909090903,
+            "end": 198.69090909090903,
+            "beat": false
+          },
+          {
+            "i": 10,
+            "t": "as a separate box, and find a channel for,",
+            "e": "a separate box",
+            "start": 198.69090909090903,
+            "end": 201.9636363636363,
+            "beat": false
+          },
+          {
+            "i": 11,
+            "t": "and a power socket for, and a place to put.",
+            "e": "a place to put",
+            "start": 201.9636363636363,
+            "end": 205.79999999999995,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "latency",
+        "accent": "latency",
+        "chapter": "PLAYABILITY",
+        "start": 206.19999999999996,
+        "end": 242.27272727272725,
+        "words": 97,
+        "captions": [
+          {
+            "i": 0,
+            "t": "A singer does not describe latency as milliseconds.",
+            "e": "milliseconds",
+            "start": 206.19999999999996,
+            "end": 209.47272727272724,
+            "beat": false
+          },
+          {
+            "i": 1,
+            "t": "They describe it as not being able to sing.",
+            "e": "not being able",
+            "start": 209.47272727272724,
+            "end": 212.9454545454545,
+            "beat": true
+          },
+          {
+            "i": 2,
+            "t": "CueMix 5 does the monitor mix in hardware,",
+            "e": "in hardware",
+            "start": 212.9454545454545,
+            "end": 216.2181818181818,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "inside the interface, before the computer is involved.",
+            "e": "before",
+            "start": 216.2181818181818,
+            "end": 219.1272727272727,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "A round trip of about two milliseconds.",
+            "e": "two milliseconds",
+            "start": 219.1272727272727,
+            "end": 222.2363636363636,
+            "beat": true
+          },
+          {
+            "i": 5,
+            "t": "Which means the headphone mix does not move",
+            "e": "does not move",
+            "start": 222.2363636363636,
+            "end": 225.1454545454545,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "when you raise the buffer to get through a heavy session,",
+            "e": "the buffer",
+            "start": 225.1454545454545,
+            "end": 229.50909090909087,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "and the same routing sends a clean loopback to a stream",
+            "e": "loopback",
+            "start": 229.50909090909087,
+            "end": 233.50909090909087,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "without a second machine in the room.",
+            "e": "a second machine",
+            "start": 233.50909090909087,
+            "end": 236.25454545454542,
+            "beat": true
+          },
+          {
+            "i": 9,
+            "t": "The take stops being a negotiation with the computer",
+            "e": "a negotiation",
+            "start": 236.25454545454542,
+            "end": 239.5272727272727,
+            "beat": false
+          },
+          {
+            "i": 10,
+            "t": "and goes back to being a performance.",
+            "e": "a performance",
+            "start": 239.5272727272727,
+            "end": 242.27272727272725,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "numbers",
+        "accent": "standard",
+        "chapter": "THE NUMBERS",
+        "start": 242.67272727272726,
+        "end": 274.5818181818181,
+        "words": 85,
+        "captions": [
+          {
+            "i": 0,
+            "t": "All of that in one place.",
+            "e": "one place",
+            "start": 242.67272727272726,
+            "end": 245.05454545454543,
+            "beat": true
+          },
+          {
+            "i": 1,
+            "t": "One hundred and twenty-five decibels of dynamic range,",
+            "e": "twenty-five",
+            "start": 245.05454545454543,
+            "end": 248.69090909090906,
+            "beat": false
+          },
+          {
+            "i": 2,
+            "t": "from the converter tier both of them use.",
+            "e": "both",
+            "start": 248.69090909090906,
+            "end": 251.79999999999995,
+            "beat": true
+          },
+          {
+            "i": 3,
+            "t": "Seventy-four decibels of preamplifier gain, on either box.",
+            "e": "Seventy-four",
+            "start": 251.79999999999995,
+            "end": 255.43636363636358,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "A round trip of about two milliseconds through CueMix 5.",
+            "e": "two milliseconds",
+            "start": 255.43636363636358,
+            "end": 259.99999999999994,
+            "beat": true
+          },
+          {
+            "i": 5,
+            "t": "Forty channels over USB 2.0 in half a rack.",
+            "e": "Forty channels",
+            "start": 259.99999999999994,
+            "end": 263.99999999999994,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "Sixty channels over USB 3.2 in one rack unit.",
+            "e": "Sixty channels",
+            "start": 263.99999999999994,
+            "end": 268.5636363636363,
+            "beat": true
+          },
+          {
+            "i": 7,
+            "t": "Two of those numbers are the same in both.",
+            "e": "the same",
+            "start": 268.5636363636363,
+            "end": 271.83636363636356,
+            "beat": false
+          },
+          {
+            "i": 8,
+            "t": "The other two are the whole decision.",
+            "e": "the whole decision",
+            "start": 271.83636363636356,
+            "end": 274.5818181818181,
+            "beat": true
+          }
+        ]
+      },
+      {
+        "id": "choose",
+        "accent": "choose",
+        "chapter": "TWO ENVIRONMENTS",
+        "start": 274.9818181818181,
+        "end": 304.1454545454545,
+        "words": 78,
+        "captions": [
+          {
+            "i": 0,
+            "t": "So the question was never which one is better.",
+            "e": "never",
+            "start": 274.9818181818181,
+            "end": 278.4545454545454,
+            "beat": true
+          },
+          {
+            "i": 1,
+            "t": "It is where the thing is going to live.",
+            "e": "where",
+            "start": 278.4545454545454,
+            "end": 281.72727272727263,
+            "beat": false
+          },
+          {
+            "i": 2,
+            "t": "On a desk that has to be clear by dinner,",
+            "e": "a desk",
+            "start": 281.72727272727263,
+            "end": 285.36363636363626,
+            "beat": false
+          },
+          {
+            "i": 3,
+            "t": "in a bag that goes to the gig,",
+            "e": "a bag",
+            "start": 285.36363636363626,
+            "end": 288.2727272727272,
+            "beat": false
+          },
+          {
+            "i": 4,
+            "t": "forty channels, half a rack, no mains lead.",
+            "e": "forty channels",
+            "start": 288.2727272727272,
+            "end": 291.7454545454545,
+            "beat": true
+          },
+          {
+            "i": 5,
+            "t": "Or bolted into a rack that never moves,",
+            "e": "bolted",
+            "start": 291.7454545454545,
+            "end": 294.6545454545454,
+            "beat": false
+          },
+          {
+            "i": 6,
+            "t": "with outboard in the inserts, clock out to the room,",
+            "e": "clock out",
+            "start": 294.6545454545454,
+            "end": 298.29090909090905,
+            "beat": false
+          },
+          {
+            "i": 7,
+            "t": "sixty channels and a talkback key.",
+            "e": "sixty channels",
+            "start": 298.29090909090905,
+            "end": 301.0363636363636,
+            "beat": true
+          },
+          {
+            "i": 8,
+            "t": "Same converter. Same preamps. Same mixer.",
+            "e": "Same converter",
+            "start": 301.0363636363636,
+            "end": 303.2181818181818,
+            "beat": false
+          },
+          {
+            "i": 9,
+            "t": "Two rooms.",
+            "e": "Two rooms",
+            "start": 303.2181818181818,
+            "end": 304.1454545454545,
+            "beat": true
+          }
+        ]
+      }
+    ]
+  }
+}
